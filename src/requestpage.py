@@ -17,6 +17,8 @@ def validPageFilterRule(page: str):
 
 # A common name standardization for pages
 def standardizeName(name: str):
+    if name == 'libraryUtil':
+        return name #libraryUtil is a lua standard library, unrelated to Module:LibraryUtil
     name = name.replace("Module:", "").replace("_", " ").strip()
     return name if len(name) < 1 else name[0].upper() + name[1:]
 
@@ -86,6 +88,13 @@ def makePageContentRequest(page: str):
 
     return returnedContent
 
+# Perform get request for a module at Module:moduleName
+# Returns a tuple (content, isMissing)
+def makeModuleContentRequest(moduleName: str):
+    if len(moduleName) < 1 or not moduleName[0].isupper():
+        return "", True
+    return makePageContentRequest("Module:" + moduleName)
+
 # require(...)
 # loader.require(...)
 # loader.lazy.require(...)
@@ -119,7 +128,7 @@ def findDependencies(page: str):
     page = page.replace("Module:", "")
 
     # Get page from API
-    content, isMissing = makePageContentRequest("Module:" + page)
+    content, isMissing = makeModuleContentRequest(page)
 
     # Search for all require/loadData calls in the content
     callStrings: list[str] = []

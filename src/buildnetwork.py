@@ -6,9 +6,9 @@ from pyvis.network import Network
 import networkx as nx
 import pickle, os, shutil
 
-from makegraph import PageType
+from makegraph import GraphResult, PageType
 
-def loadInformation():
+def loadInformation() -> GraphResult:
     with open('build/dependencies-graph.pickle', 'rb') as f:
         usesRelationsMap: dict[str, list[str]] = pickle.load(f)
 
@@ -56,7 +56,7 @@ def findNodeLevels(usesRelationsMap: dict[str, list[str]], pageTypes: dict[str, 
 
     return nodeLevels
 
-def makeGraph():
+def buildPyvisGraph():
     usesRelationsMap, pageTypes = loadInformation()
 
     usedByRelationsMap = findUsedByRelations(usesRelationsMap)
@@ -73,14 +73,14 @@ def makeGraph():
         group = (
                 1 if pageTypes[node] == "data" else
                 2 if pageTypes[node] == "external" else
-                3 if pageTypes[node] == "module" else
+                3 if pageTypes[node] == "code" else
                 4 if pageTypes[node] == "test" else
                 -1
                 )
         typeName = (
                 "Data" if pageTypes[node] == "data" else
                 "External" if pageTypes[node] == "external" else
-                "Code" if pageTypes[node] == "module" else
+                "Code" if pageTypes[node] == "code" else
                 "Test" if pageTypes[node] == "test" else
                 ""
                 )
@@ -113,7 +113,7 @@ def moveLibToCorrectLocation():
             shutil.rmtree('docs/lib')
         shutil.move('lib', 'docs/lib')
 
-def drawDefaultGraph(dag: nx.DiGraph):
+def saveDefaultNetwork(dag: nx.DiGraph):
     net = Network(
         height="750px", width="100%", bgcolor="#222222", font_color="white",
         directed=True, neighborhood_highlight=True, select_menu=True, filter_menu=True,
@@ -128,7 +128,7 @@ def drawDefaultGraph(dag: nx.DiGraph):
 
     moveLibToCorrectLocation()
 
-def drawHierarchicalGraph(dag: nx.DiGraph):
+def saveHierarchicalNetwork(dag: nx.DiGraph):
     net = Network(
         height="750px", width="100%", bgcolor="#222222", font_color="white",
         directed=True, neighborhood_highlight=True, select_menu=True, filter_menu=True,
@@ -144,6 +144,6 @@ def drawHierarchicalGraph(dag: nx.DiGraph):
     moveLibToCorrectLocation()
 
 if __name__ == "__main__":
-    dag = makeGraph()
-    drawDefaultGraph(dag)
-    drawHierarchicalGraph(dag)
+    dag = buildPyvisGraph()
+    saveDefaultNetwork(dag)
+    saveHierarchicalNetwork(dag)

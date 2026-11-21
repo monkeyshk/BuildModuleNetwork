@@ -1,6 +1,5 @@
 {
     "AIV": [
-        "Loader",
         "String",
         "Table"
     ],
@@ -10,9 +9,7 @@
         "Color/Data"
     ],
     "Achievement/Display": [
-        "Loader",
         "String",
-        "Table",
         "Yesno",
         "Arguments"
     ],
@@ -21,12 +18,15 @@
     ],
     "AlphaStatus/Data": [],
     "Animate": [
-        "Loader",
         "Arguments",
         "String",
         "Table",
+        "Yesno"
+    ],
+    "Animate/Item": [
+        "Arguments",
         "Yesno",
-        "LibU",
+        "Animate",
         "Item/Variants"
     ],
     "Arguments": [
@@ -42,12 +42,16 @@
         "Arguments"
     ],
     "Attribute/Display": [
-        "Loader",
         "Arguments"
     ],
     "AuctionHouse": [
         "Arguments",
-        "Loader",
+        "String",
+        "Table",
+        "Yesno",
+        "Currency",
+        "Color",
+        "Base64",
         "AuctionHouse/Aliases",
         "AuctionHouse/Items",
         "AuctionHouse/Data"
@@ -56,14 +60,12 @@
     "AuctionHouse/Data": [],
     "AuctionHouse/Items": [],
     "Bank": [
-        "Loader",
         "Arguments",
         "Yesno"
     ],
     "Base64": [],
     "Bazaar": [
         "Arguments",
-        "Loader",
         "String",
         "Table",
         "Yesno",
@@ -88,7 +90,6 @@
     "BestiaryTiers": [],
     "BucketPut": [],
     "Calculator": [
-        "Loader",
         "Arguments",
         "Color",
         "Tabber",
@@ -98,7 +99,6 @@
     "CallAssert": [],
     "Catacombs Loot": [
         "Arguments",
-        "Loader",
         "Table",
         "Color",
         "Item",
@@ -114,12 +114,8 @@
     ],
     "Checkbox": [],
     "Chocolate": [
-        "Loader",
         "Arguments",
         "Yesno"
-    ],
-    "Cite Discord": [
-        "Arguments"
     ],
     "Class": [],
     "Class/testcases": [
@@ -127,19 +123,17 @@
     ],
     "Collection": [
         "Arguments",
-        "Loader",
         "String",
         "Table",
         "Yesno",
         "Item/Display",
         "Color",
-        "Skillname",
+        "Skill",
         "Enchantment/Display",
         "Collection/Data"
     ],
     "Collection/Data": [],
     "Collection/Link": [
-        "Loader",
         "String",
         "Yesno",
         "Color",
@@ -180,20 +174,16 @@
     ],
     "Color/Data": [],
     "Cosmetic": [
-        "Loader",
         "String",
         "Arguments",
-        "RarityTier"
+        "Rarity"
     ],
     "Countdown": [
         "Arguments",
         "Yesno"
     ],
     "Crafting": [
-        "Loader",
-        "String",
         "Table",
-        "Yesno",
         "Inventory slot",
         "Arguments",
         "Crafting/Utils",
@@ -213,7 +203,6 @@
     ],
     "Crafting/UI": [
         "Arguments",
-        "Loader",
         "Table",
         "Yesno",
         "Crafting",
@@ -222,13 +211,18 @@
         "Crafting/Bucket"
     ],
     "Crafting/Utils": [
-        "Loader",
         "String",
         "Table"
     ],
     "Crop Milestone Table": [],
-    "Currency": [
+    "Crystal Nucleus": [
+        "Arguments",
         "Loader",
+        "Yesno",
+        "Item",
+        "Color"
+    ],
+    "Currency": [
         "Arguments",
         "String",
         "Table",
@@ -249,7 +243,6 @@
     ],
     "DamageType": [
         "Arguments",
-        "Loader",
         "String",
         "Yesno",
         "Color",
@@ -260,7 +253,6 @@
     "Date": [],
     "Debug": [],
     "DetailedList": [
-        "Loader",
         "Arguments",
         "String",
         "Table",
@@ -272,6 +264,9 @@
     "DetailedList/testcases": [
         "DetailedList",
         "ScribuntoUnit"
+    ],
+    "Discord": [
+        "Arguments"
     ],
     "Docbunto": [
         "I18n",
@@ -291,11 +286,10 @@
     ],
     "Documentation/Config": [],
     "Documentation/Core": [
-        "Loader",
         "String",
         "Table",
         "Class",
-        "LibraryUtil",
+        "LibU",
         "Documentation/Config"
     ],
     "Documentation/Parameters": [
@@ -307,12 +301,11 @@
         "LibU"
     ],
     "Dungeon": [
-        "Loader",
         "Arguments",
         "String",
         "Table",
         "Yesno",
-        "LibraryUtil",
+        "LibU",
         "Color",
         "Item"
     ],
@@ -323,20 +316,17 @@
         "Yesno"
     ],
     "Enchantment": [
-        "Loader",
         "String",
         "String/Templates",
         "Table",
-        "Yesno",
         "Mctxt",
-        "RarityTier",
+        "Rarity",
         "Arguments",
         "Enchantment/Data"
     ],
     "Enchantment/Aliases": [],
     "Enchantment/Data": [],
     "Enchantment/Display": [
-        "Loader",
         "String",
         "Table",
         "Yesno",
@@ -347,13 +337,12 @@
         "Enchantment/Aliases"
     ],
     "Enchantment/EnchantmentPageRow": [
-        "Loader",
         "Arguments",
         "String",
         "Table",
-        "RarityTier",
+        "Rarity",
         "Enchantment/Display",
-        "Skillname",
+        "Skill",
         "Enchantment/Data"
     ],
     "EnchantmentBazaarStats": [
@@ -362,7 +351,6 @@
     ],
     "Enigma Souls": [
         "Arguments",
-        "Loader",
         "Table",
         "Zone/Data"
     ],
@@ -373,7 +361,6 @@
     ],
     "Fairy Souls": [
         "Arguments",
-        "Loader",
         "Table",
         "Zone/Data"
     ],
@@ -381,7 +368,6 @@
     "FileInfo": [
         "Arguments",
         "LibU",
-        "Loader",
         "String",
         "Yesno"
     ],
@@ -392,8 +378,6 @@
         "Yesno"
     ],
     "Gemstone": [
-        "Loader",
-        "Arguments",
         "Arguments",
         "String",
         "Table",
@@ -409,21 +393,16 @@
     ],
     "Hatnote/i18n": [],
     "Heart of the Forest": [
-        "Loader",
-        "String",
         "Arguments",
         "LibU"
     ],
     "Heart of the Mountain": [
-        "Loader",
-        "String",
         "Arguments",
         "LibU",
         "Item/Display",
         "HypixelServerTime"
     ],
     "History": [
-        "Loader",
         "String",
         "Table",
         "Arguments",
@@ -433,7 +412,6 @@
     "History/Aliases": [],
     "History/Datasheet": [],
     "Html": [
-        "Loader",
         "String",
         "Table",
         "LibU"
@@ -458,13 +436,11 @@
     ],
     "Infobox": [
         "Arguments",
-        "Loader",
         "LibU",
         "Table",
         "Class"
     ],
     "Infobox/Common": [
-        "Loader",
         "String",
         "Table",
         "Yesno",
@@ -472,25 +448,31 @@
         "Infobox/Data"
     ],
     "Infobox/Common/Basic": [
-        "Loader",
         "Infobox/Common",
         "Infobox/Data"
     ],
     "Infobox/Common/Image": [
-        "Loader",
         "String",
         "Table",
-        "Yesno",
+        "Animate/Item"
+    ],
+    "Infobox/Common/Image/Basic": [
+        "String",
+        "Table",
         "Animate"
     ],
     "Infobox/Common/SlotItem": [
-        "Loader",
         "String",
         "Inventory slot"
     ],
+    "Infobox/Common/SlotItem/Basic": [
+        "String"
+    ],
     "Infobox/Currency": [
         "Loader",
+        "String",
         "Arguments",
+        "Bazaar",
         "Infobox",
         "Infobox/Common",
         "Infobox/Common/Basic",
@@ -498,12 +480,11 @@
     ],
     "Infobox/Data": [],
     "Infobox/Dungeon": [
-        "Loader",
         "Arguments",
         "Infobox",
         "Infobox/Common",
         "Infobox/Common/Basic",
-        "Infobox/Common/Image"
+        "Infobox/Common/Image/Basic"
     ],
     "Infobox/Gadget": [
         "Infobox",
@@ -524,7 +505,7 @@
         "Arguments",
         "Stat",
         "Stat/Order",
-        "RarityTier",
+        "Rarity",
         "Collection/Link",
         "Odds",
         "Bazaar",
@@ -566,11 +547,13 @@
         "Mob",
         "Mob/Display",
         "MobType",
-        "RarityTier",
+        "Rarity",
+        "Stat",
+        "Stat/Order",
         "Infobox",
         "Infobox/Common",
         "Infobox/Common/Basic",
-        "Infobox/Common/Image"
+        "Infobox/Common/Image/Basic"
     ],
     "Infobox/Npc": [
         "Loader",
@@ -578,14 +561,14 @@
         "Table",
         "Yesno",
         "Arguments",
-        "Inventory slot",
+        "Inventory slot/Core",
         "Minimap",
         "Mayor",
         "Infobox",
         "Infobox/Common",
         "Infobox/Common/Basic",
-        "Infobox/Common/Image",
-        "Infobox/Common/SlotItem",
+        "Infobox/Common/Image/Basic",
+        "Infobox/Common/SlotItem/Basic",
         "Infobox/Data"
     ],
     "Infobox/Quest": [
@@ -618,23 +601,20 @@
         "Infobox",
         "Infobox/Common",
         "Infobox/Common/Basic",
-        "Infobox/Common/Image"
+        "Infobox/Common/Image/Basic"
     ],
     "Infobox/Stat": [
         "Loader",
         "String",
         "Table",
-        "Yesno",
         "Arguments",
         "Infobox",
         "Infobox/Common",
         "Infobox/Common/Basic",
-        "Infobox/Common/Image"
+        "Infobox/Common/Image/Basic"
     ],
     "Infobox/Templates": [
-        "Arguments",
-        "Stat",
-        "Stat/Order"
+        "Arguments"
     ],
     "Infobox/Upgrade": [
         "Loader",
@@ -642,7 +622,7 @@
         "Infobox",
         "Infobox/Common",
         "Infobox/Common/Basic",
-        "Infobox/Common/Image"
+        "Infobox/Common/Image/Basic"
     ],
     "Infobox/Zone": [
         "Loader",
@@ -656,7 +636,7 @@
         "Infobox",
         "Infobox/Common",
         "Infobox/Common/Basic",
-        "Infobox/Common/Image"
+        "Infobox/Common/Image/Basic"
     ],
     "Infobox/i18n": [],
     "Infobox/testcases": [
@@ -664,7 +644,6 @@
     ],
     "InterestingStats": [
         "Arguments",
-        "Loader",
         "String",
         "Stat",
         "Stat/Aliases"
@@ -672,29 +651,28 @@
     "InterestingStats/StatFacts": [],
     "Inventory slot": [
         "Arguments",
-        "Loader",
         "String",
         "Table",
-        "Yesno",
         "Currency",
         "Random",
-        "UIText",
+        "Inventory slot/Core",
         "Inventory slot/Datasheet",
         "Inventory slot/Aliases",
         "Item/Variants"
     ],
     "Inventory slot/Aliases": [],
+    "Inventory slot/Core": [
+        "String",
+        "Random"
+    ],
     "Inventory slot/Datasheet": [
-        "Loader",
         "Table",
         "Inventory slot/Utils",
-        "Inventory slot/Tooltips",
         "Inventory slot/Templates",
+        "Inventory slot/Tooltips",
         "Color/Data"
     ],
     "Inventory slot/Templates": [
-        "Table",
-        "Color/Data",
         "Minion/Templates",
         "Pet/Templates",
         "Enchantment",
@@ -703,40 +681,35 @@
     ],
     "Inventory slot/Tooltips": [],
     "Inventory slot/Utils": [
-        "Loader",
         "String",
         "Table",
-        "UIText",
-        "RarityTier",
+        "Rarity",
+        "UIText/Data",
         "Inventory slot/Templates"
     ],
     "Item": [
-        "Loader",
         "String",
         "Table",
         "Yesno",
         "Arguments",
-        "RarityTier",
+        "Rarity",
         "Currency",
         "Color",
         "Enchantment/Display",
         "List",
         "Item/Data",
-        "Item/Aliases",
         "Armor/Sets",
         "Item/ApiData",
         "Item/ApiAliases"
     ],
     "Item stats": [
-        "Loader",
         "Color",
         "Stat",
-        "RarityTier",
+        "Rarity",
         "Ability",
         "Inventory slot",
         "Stat/Order"
     ],
-    "Item/Aliases": [],
     "Item/ApiAliases": [],
     "Item/ApiData": [],
     "Item/ApiData/AsCacheTable": [
@@ -744,7 +717,6 @@
     ],
     "Item/Data": [],
     "Item/Display": [
-        "Loader",
         "Arguments",
         "String",
         "Table",
@@ -766,26 +738,13 @@
         "Minion/Templates",
         "Potion",
         "Enchantment",
+        "LibU",
         "Armor/Sets"
     ],
     "ItemInfo": [
         "Arguments",
         "Item stats"
     ],
-    "ItemInfo/Old": [
-        "Arguments",
-        "Loader",
-        "Yesno",
-        "Color",
-        "Statname",
-        "RarityTier",
-        "Ability",
-        "Inventory slot",
-        "Statname/Data"
-    ],
-    "ItemInfo/Old/Armor Data": [],
-    "ItemInfo/Old/Item Data": [],
-    "ItemInfo/Old/Weapon Data": [],
     "ItemInfo/Templates": [
         "Arguments",
         "Color"
@@ -833,14 +792,13 @@
         "Class"
     ],
     "LuaFunction": [
-        "Loader",
         "String",
         "Table",
         "Yesno",
-        "LibraryUtil",
         "Class",
         "Color",
-        "Arguments"
+        "Arguments",
+        "LibU"
     ],
     "MCWString": [
         "String"
@@ -854,9 +812,9 @@
         "Pet/Data",
         "Minion/Data",
         "Minion/Aliases",
-        "RarityTier/Data",
+        "Rarity/Data",
         "Stat/Data",
-        "Skillname/Data",
+        "Skill/Data",
         "Collection/Data",
         "Staff/Members",
         "Enchantment/Data",
@@ -883,14 +841,11 @@
         "Mayor/Data"
     ],
     "Mayor/UI": [
-        "Loader",
         "Arguments",
         "String",
         "Table",
-        "Yesno",
         "Mayor",
         "Inventory slot/Utils",
-        "LibraryUtil",
         "Mayor/Data",
         "Mayor/Elections"
     ],
@@ -902,11 +857,7 @@
     "Mctxt": [
         "Arguments"
     ],
-    "Mcwstring": [
-        "MCWString"
-    ],
     "Minimap": [
-        "Loader",
         "Arguments",
         "String",
         "Table",
@@ -931,10 +882,9 @@
         "String/Templates",
         "Inventory slot",
         "Bazaar",
-        "Color",
         "Currency",
         "Item",
-        "Skillname",
+        "Skill",
         "Crafting/Bucket",
         "Collection/Link",
         "Minion/Data",
@@ -944,7 +894,6 @@
     "Minion/Data": [],
     "Minion/MinionPageRow": [
         "Arguments",
-        "Loader",
         "String",
         "Table",
         "String/Templates",
@@ -953,7 +902,6 @@
     ],
     "Minion/Modifiers": [
         "Arguments",
-        "Loader",
         "String",
         "Table",
         "Yesno",
@@ -989,11 +937,8 @@
     ],
     "Misc": [
         "Arguments",
-        "Arguments",
-        "Loader",
         "String",
-        "Table",
-        "Yesno"
+        "Table"
     ],
     "Mob": [
         "Arguments",
@@ -1001,14 +946,14 @@
         "Yesno",
         "Odds",
         "Item",
-        "RarityTier",
         "Color",
         "Mob/Display",
         "MobType",
         "Zone",
         "Skill",
         "Currency",
-        "Mainonly"
+        "Mainonly",
+        "String"
     ],
     "Mob spawns": [
         "Arguments",
@@ -1033,15 +978,12 @@
         "Mob/Aliases"
     ],
     "MobLevel": [
-        "Loader",
         "Arguments",
         "Yesno"
     ],
     "MobType": [
-        "Loader",
         "Arguments",
         "Color",
-        "SafeResponse",
         "MobType/Data"
     ],
     "MobType/Data": [],
@@ -1050,7 +992,6 @@
     ],
     "NPC": [
         "Arguments",
-        "Loader",
         "Table",
         "Zone/Data"
     ],
@@ -1097,10 +1038,7 @@
     ],
     "Notice": [
         "Arguments",
-        "Loader",
         "Yesno",
-        "Color",
-        "Mainonly",
         "Notice/Data"
     ],
     "Notice/Data": [],
@@ -1113,7 +1051,6 @@
     ],
     "Odds": [
         "Arguments",
-        "Loader",
         "String",
         "Table",
         "Yesno",
@@ -1156,22 +1093,22 @@
         "Color",
         "Currency",
         "Ability",
-        "RarityTier",
+        "Rarity",
         "Stat",
-        "Inventory slot",
+        "Inventory slot/Core",
         "Inventory slot/Utils",
         "Arguments",
         "Pet/Utils",
         "Bazaar",
         "Pet/LevelingData",
         "UIText/Data",
-        "RarityTier/Aliases"
+        "Rarity/Aliases"
     ],
     "Pet Item": [
-        "Loader",
-        "Table",
-        "UIText",
-        "Pet Item/Data"
+        "String",
+        "Rarity",
+        "Pet Item/Data",
+        "UIText/Data"
     ],
     "Pet Item/Data": [],
     "Pet/Data": [],
@@ -1183,60 +1120,53 @@
         "Loader",
         "String",
         "Table",
-        "Yesno",
-        "RarityTier",
+        "Rarity",
         "Stat",
         "Pet/Utils",
         "Pet/Data",
         "Pet/Skins",
-        "RarityTier/Aliases"
+        "Rarity/Aliases"
     ],
     "Pet/UI": [
         "Loader",
         "Pet/Data",
-        "RarityTier/Data",
         "Arguments",
         "String",
         "Table",
-        "RarityTier",
+        "Rarity",
         "UI/Core",
         "Pet/Utils",
         "UIText",
-        "RarityTier/Aliases",
+        "Rarity/Aliases",
         "Yesno",
         "Inventory slot",
         "Stat",
         "Ability",
-        "Color"
+        "Color",
+        "Rarity/Data"
     ],
     "Pet/Utils": [
         "Loader",
         "String",
         "Table",
         "Yesno",
-        "RarityTier",
+        "Rarity",
         "Stat",
         "Pet Item",
-        "UIText",
         "Pet/Data",
-        "RarityTier/Aliases"
+        "Rarity/Aliases",
+        "UIText/Data"
     ],
     "Potion": [
-        "Loader",
-        "Arguments",
         "String",
         "Table",
-        "Yesno",
-        "UIText",
         "Potion/Data",
         "Potion/Aliases"
     ],
     "Potion/Aliases": [],
     "Potion/Data": [],
     "Potion/Display": [
-        "Loader",
         "String",
-        "Table",
         "Yesno",
         "Color",
         "Arguments",
@@ -1245,22 +1175,16 @@
     ],
     "Potion/PotionPageRow": [
         "Arguments",
-        "Loader",
         "String",
         "Table",
-        "Yesno",
         "Inventory slot",
         "Potion/Display",
-        "RarityTier",
+        "Rarity",
         "Potion/Data",
         "Potion/Aliases"
     ],
     "Potion/UI": [
         "Arguments",
-        "Loader",
-        "String",
-        "Table",
-        "Yesno",
         "Potion",
         "UI/Core",
         "Inventory slot/Aliases"
@@ -1273,7 +1197,6 @@
         "SafeResponse"
     ],
     "Power/Display": [
-        "Loader",
         "Arguments"
     ],
     "ProcessArgs": [],
@@ -1282,6 +1205,7 @@
         "Arguments",
         "I18n"
     ],
+    "RNG Meter/Catacombs Requirements": [],
     "Random": [
         "Yesno",
         "Random/Dependencies"
@@ -1295,7 +1219,6 @@
     ],
     "Rank": [
         "Arguments",
-        "Loader",
         "String",
         "Table",
         "Yesno",
@@ -1306,13 +1229,12 @@
     "Rank/Data": [],
     "Rarity": [
         "Arguments",
-        "Loader",
         "Table",
         "Yesno",
         "Color",
         "Mainonly",
-        "RarityTier/Aliases",
-        "RarityTier/Data"
+        "Rarity/Aliases",
+        "Rarity/Data"
     ],
     "Rarity/Aliases": [],
     "Rarity/Data": [],
@@ -1328,12 +1250,18 @@
         "Bazaar"
     ],
     "Reforge": [
-        "Loader",
+        "String",
+        "Table",
+        "Arguments",
+        "Rarity",
+        "Coins",
+        "Stat",
+        "Mctxt",
+        "Item",
         "Reforge/Data"
     ],
     "Reforge/Data": [],
     "Reforge/Display": [
-        "Loader",
         "Arguments"
     ],
     "Relations": [
@@ -1346,16 +1274,13 @@
         "String"
     ],
     "Report": [
-        "Loader",
         "String",
         "Table",
-        "Yesno",
         "LibU",
         "Arguments",
         "User"
     ],
     "RightBox": [
-        "Loader",
         "String",
         "Table",
         "Yesno",
@@ -1373,13 +1298,11 @@
     ],
     "Sacks": [
         "Arguments",
-        "Loader",
         "Table",
         "Color",
         "Item/Display"
     ],
     "SafeResponse": [
-        "Loader",
         "String/Templates",
         "JSON",
         "SafeResponse/Data"
@@ -1414,8 +1337,8 @@
         "Yesno",
         "Color",
         "LibU",
-        "Skillname/Data",
-        "Skillname/Aliases"
+        "Skill/Data",
+        "Skill/Aliases"
     ],
     "Skill/Aliases": [],
     "Skill/Data": [],
@@ -1429,11 +1352,9 @@
     ],
     "Staff": [
         "Arguments",
-        "Loader",
         "String",
         "Table",
         "Yesno",
-        "LibU",
         "User",
         "Staff/Data",
         "User/Data",
@@ -1443,8 +1364,6 @@
     "Staff/Data": [],
     "Staff/Members": [],
     "Stat": [
-        "Loader",
-        "String",
         "Table",
         "Yesno",
         "Arguments",
@@ -1494,7 +1413,6 @@
     ],
     "Tabview": [
         "Arguments",
-        "Loader",
         "String",
         "Table",
         "Yesno",
@@ -1518,21 +1436,15 @@
     ],
     "TooltipText": [
         "Arguments",
-        "Loader",
-        "String",
-        "Table",
-        "Yesno",
-        "UIText"
+        "String"
     ],
     "Top": [],
     "UI": [
         "Arguments",
-        "Arguments",
         "Loader",
         "String",
         "Table",
         "Yesno",
-        "UIText",
         "Inventory slot",
         "Crafting",
         "UI/Core",
@@ -1540,7 +1452,6 @@
         "Mctxt"
     ],
     "UI/Core": [
-        "Loader",
         "Class",
         "Yesno",
         "Inventory slot",
@@ -1551,21 +1462,18 @@
         "Loader",
         "String",
         "Table",
-        "LibraryUtil",
-        "Yesno",
+        "LibU",
         "Stat",
-        "Stat/Aliases",
-        "RarityTier",
+        "Rarity",
         "Zone",
         "Potion/Data",
         "Potion/Aliases",
         "Enchantment/Data",
         "Enchantment/Aliases",
-        "RarityTier/Data",
-        "RarityTier/Aliases",
+        "Rarity/Data",
+        "Rarity/Aliases",
         "UIText/Data",
-        "Gemstone/Data",
-        "Zone/Data"
+        "Gemstone/Data"
     ],
     "UIText/Data": [],
     "Unindent": [],
@@ -1575,7 +1483,6 @@
     ],
     "User": [
         "Arguments",
-        "Loader",
         "String",
         "Table",
         "Yesno",
@@ -1601,11 +1508,10 @@
     ],
     "Weapon/Data": [],
     "Weight": [
-        "Loader",
         "String",
         "Yesno",
         "Arguments",
-        "RarityTier",
+        "Rarity",
         "Weight/Data"
     ],
     "Weight/Data": [],
@@ -1619,7 +1525,6 @@
         "Yesno"
     ],
     "Zone": [
-        "Loader",
         "String",
         "Table",
         "Arguments",
@@ -1630,16 +1535,5 @@
     ],
     "Zone/Aliases": [],
     "Zone/Data": [],
-    "Skillname": [],
-    "RarityTier": [],
-    "FrameTools": [],
-    "Bit32": [],
-    "Statname": [],
-    "Statname/Data": [],
-    "RarityTier/Data": [],
-    "Skillname/Data": [],
-    "TableTools": [],
-    "RarityTier/Aliases": [],
-    "Skillname/Aliases": [],
-    "WP:Wikitable": []
+    "Coins": []
 }

@@ -39,7 +39,7 @@ def requestListOfAllPages(namesapceId: int, namespaceStr: str = "") -> list[str]
         apcontinue = tempList[-1].replace(" ", "_").replace(namespaceStr, "")
         tempList = makePageListRequest(apcontinue, namesapceId)
         pageList += tempList
-    pageList = [page.replace("Module:", "") for page in set(pageList)]
+    pageList = list(set(pageList))
     pageList.sort()
     return pageList
 

@@ -1,1539 +1,1544 @@
 {
-    "AIV": [
-        "String",
-        "Table"
-    ],
-    "Ability": [
-        "Arguments",
-        "Yesno",
-        "Color/Data"
-    ],
-    "Achievement/Display": [
-        "String",
-        "Yesno",
-        "Arguments"
-    ],
-    "AlphaStatus": [
-        "AlphaStatus/Data"
-    ],
-    "AlphaStatus/Data": [],
-    "Animate": [
-        "Arguments",
-        "String",
-        "Table",
-        "Yesno"
-    ],
-    "Animate/Item": [
-        "Arguments",
-        "Yesno",
-        "Animate",
-        "Item/Variants"
-    ],
-    "Arguments": [
-        "LibU"
-    ],
-    "Armor/Sets": [],
-    "Attribute Shard": [
-        "String",
-        "Attribute Shard/Data"
-    ],
-    "Attribute Shard/Data": [],
-    "Attribute Shard/Display": [
-        "Arguments"
-    ],
-    "Attribute/Display": [
-        "Arguments"
-    ],
-    "AuctionHouse": [
-        "Arguments",
-        "String",
-        "Table",
-        "Yesno",
-        "Currency",
-        "Color",
-        "Base64",
-        "AuctionHouse/Aliases",
-        "AuctionHouse/Items",
-        "AuctionHouse/Data"
-    ],
-    "AuctionHouse/Aliases": [],
-    "AuctionHouse/Data": [],
-    "AuctionHouse/Items": [],
-    "Bank": [
-        "Arguments",
-        "Yesno"
-    ],
-    "Base64": [],
-    "Bazaar": [
-        "Arguments",
-        "String",
-        "Table",
-        "Yesno",
-        "Currency",
-        "Color",
-        "Base64",
-        "Bazaar/Aliases",
-        "Bazaar/Items",
-        "Bazaar/i18n",
-        "Bazaar/Data"
-    ],
-    "Bazaar/Aliases": [],
-    "Bazaar/Data": [],
-    "Bazaar/Items": [],
-    "Bazaar/i18n": [],
-    "Bestiary": [
-        "Arguments",
-        "String",
-        "Yesno",
-        "BestiaryTiers"
-    ],
-    "BestiaryTiers": [],
-    "BucketPut": [],
-    "Calculator": [
-        "Arguments",
-        "Color",
-        "Tabber",
-        "Calculator/Config"
-    ],
-    "Calculator/Config": [],
-    "CallAssert": [],
-    "Catacombs Loot": [
-        "Arguments",
-        "Table",
-        "Color",
-        "Item",
-        "Currency",
-        "String"
-    ],
-    "Chance": [
-        "Arguments"
-    ],
-    "Changelog": [
-        "Arguments",
-        "String"
-    ],
-    "Checkbox": [],
-    "Chocolate": [
-        "Arguments",
-        "Yesno"
-    ],
-    "Class": [],
-    "Class/testcases": [
-        "Class"
-    ],
-    "Collection": [
-        "Arguments",
-        "String",
-        "Table",
-        "Yesno",
-        "Item/Display",
-        "Color",
-        "Skill",
-        "Enchantment/Display",
-        "Collection/Data"
-    ],
-    "Collection/Data": [],
-    "Collection/Link": [
-        "String",
-        "Yesno",
-        "Color",
-        "Arguments",
-        "Collection/Data"
-    ],
-    "Collection/UI": [
-        "Loader",
-        "String",
-        "Table",
-        "Yesno",
-        "LibU",
-        "UIText",
-        "UI/Core",
-        "Potion",
-        "Potion/UI",
-        "Random",
-        "Arguments",
-        "Pet",
-        "Collection/Data",
-        "Collection/UI/Data",
-        "Inventory slot/Datasheet",
-        "Armor/Sets",
-        "Potion/Data"
-    ],
-    "Collection/UI/Data": [],
-    "Color": [
-        "Arguments",
-        "Yesno",
-        "Color/Data"
-    ],
-    "Color Conversion": [
-        "Arguments"
-    ],
-    "Color contrast/colors": [],
-    "Color/Conversion": [
-        "Arguments"
-    ],
-    "Color/Data": [],
-    "Cosmetic": [
-        "String",
-        "Arguments",
-        "Rarity"
-    ],
-    "Countdown": [
-        "Arguments",
-        "Yesno"
-    ],
-    "Crafting": [
-        "Table",
-        "Inventory slot",
-        "Arguments",
-        "Crafting/Utils",
-        "Crafting/Bucket",
-        "Item/Variants"
-    ],
-    "Crafting recipe table": [
-        "Arguments",
-        "String",
-        "Yesno",
-        "Crafting/UI",
-        "Crafting/Bucket",
-        "Recipe tree"
-    ],
-    "Crafting/Bucket": [
-        "String"
-    ],
-    "Crafting/UI": [
-        "Arguments",
-        "Table",
-        "Yesno",
-        "Crafting",
-        "UI/Core",
-        "Element",
-        "Crafting/Bucket"
-    ],
-    "Crafting/Utils": [
-        "String",
-        "Table"
-    ],
-    "Crop Milestone Table": [],
-    "Crystal Nucleus": [
-        "Arguments",
-        "Loader",
-        "Yesno",
-        "Item",
-        "Color"
-    ],
-    "Currency": [
-        "Arguments",
-        "String",
-        "Table",
-        "Yesno",
-        "Color",
-        "Currency/Data"
-    ],
-    "Currency/Data": [],
-    "Currency/testcases": [
-        "Currency",
-        "ScribuntoUnit"
-    ],
-    "DPL": [
-        "Table",
-        "String",
-        "Yesno",
-        "LibU"
-    ],
-    "DamageType": [
-        "Arguments",
-        "String",
-        "Yesno",
-        "Color",
-        "LibU",
-        "DamageType/Data"
-    ],
-    "DamageType/Data": [],
-    "Date": [],
-    "Debug": [],
-    "DetailedList": [
-        "Arguments",
-        "String",
-        "Table",
-        "Yesno",
-        "Item/Display",
-        "DetailedList/Data"
-    ],
-    "DetailedList/Data": [],
-    "DetailedList/testcases": [
-        "DetailedList",
-        "ScribuntoUnit"
-    ],
-    "Discord": [
-        "Arguments"
-    ],
-    "Docbunto": [
-        "I18n",
-        "Lexer",
-        "Unindent",
-        "Yesno",
-        "Arguments",
-        "FrameTools",
-        "FrameTools",
-        "Docbunto/references"
-    ],
-    "Docbunto/i18n": [],
-    "Docbunto/references": [],
-    "Documentation": [
-        "Arguments",
-        "Documentation/Core"
-    ],
-    "Documentation/Config": [],
-    "Documentation/Core": [
-        "String",
-        "Table",
-        "Class",
-        "LibU",
-        "Documentation/Config"
-    ],
-    "Documentation/Parameters": [
-        "Class",
-        "Table",
-        "Arguments",
-        "Number",
-        "String",
-        "LibU"
-    ],
-    "Dungeon": [
-        "Arguments",
-        "String",
-        "Table",
-        "Yesno",
-        "LibU",
-        "Color",
-        "Item"
-    ],
-    "Element": [
-        "Arguments",
-        "String",
-        "Table",
-        "Yesno"
-    ],
-    "Enchantment": [
-        "String",
-        "String/Templates",
-        "Table",
-        "Mctxt",
-        "Rarity",
-        "Arguments",
-        "Enchantment/Data"
-    ],
-    "Enchantment/Aliases": [],
-    "Enchantment/Data": [],
-    "Enchantment/Display": [
-        "String",
-        "Table",
-        "Yesno",
-        "Color",
-        "LibU",
-        "Arguments",
-        "Enchantment/Data",
-        "Enchantment/Aliases"
-    ],
-    "Enchantment/EnchantmentPageRow": [
-        "Arguments",
-        "String",
-        "Table",
-        "Rarity",
-        "Enchantment/Display",
-        "Skill",
-        "Enchantment/Data"
-    ],
-    "EnchantmentBazaarStats": [
-        "Arguments",
-        "String"
-    ],
-    "Enigma Souls": [
-        "Arguments",
-        "Table",
-        "Zone/Data"
-    ],
-    "Entrypoint": [],
-    "Example": [
-        "Arguments",
-        "MultiRequire"
-    ],
-    "Fairy Souls": [
-        "Arguments",
-        "Table",
-        "Zone/Data"
-    ],
-    "Fallbacklist": [],
-    "FileInfo": [
-        "Arguments",
-        "LibU",
-        "String",
-        "Yesno"
-    ],
-    "FixedRound": [],
-    "ForcePageImage": [],
-    "Format": [
-        "Arguments",
-        "Yesno"
-    ],
-    "Gemstone": [
-        "Arguments",
-        "String",
-        "Table",
-        "Gemstone/Data"
-    ],
-    "Gemstone/Data": [],
-    "Global signature": [],
-    "Hatnote": [
-        "LibraryUtil",
-        "Hatnote/i18n",
-        "Arguments",
-        "Yesno"
-    ],
-    "Hatnote/i18n": [],
-    "Heart of the Forest": [
-        "Arguments",
-        "LibU"
-    ],
-    "Heart of the Mountain": [
-        "Arguments",
-        "LibU",
-        "Item/Display",
-        "HypixelServerTime"
-    ],
-    "History": [
-        "String",
-        "Table",
-        "Arguments",
-        "History/Datasheet",
-        "History/Aliases"
-    ],
-    "History/Aliases": [],
-    "History/Datasheet": [],
-    "Html": [
-        "String",
-        "Table",
-        "LibU"
-    ],
-    "HypixelServerTime": [],
-    "I18n": [
-        "Fallbacklist",
-        "Entrypoint"
-    ],
-    "IP": [
-        "Bit32",
-        "LibraryUtil"
-    ],
-    "IPAddress": [
-        "IP"
-    ],
-    "IPAddress old": [],
-    "Image": [
-        "Arguments",
-        "String",
-        "Table"
-    ],
-    "Infobox": [
-        "Arguments",
-        "LibU",
-        "Table",
-        "Class"
-    ],
-    "Infobox/Common": [
-        "String",
-        "Table",
-        "Yesno",
-        "String/Templates",
-        "Infobox/Data"
-    ],
-    "Infobox/Common/Basic": [
-        "Infobox/Common",
-        "Infobox/Data"
-    ],
-    "Infobox/Common/Image": [
-        "String",
-        "Table",
-        "Animate/Item"
-    ],
-    "Infobox/Common/Image/Basic": [
-        "String",
-        "Table",
-        "Animate"
-    ],
-    "Infobox/Common/SlotItem": [
-        "String",
-        "Inventory slot"
-    ],
-    "Infobox/Common/SlotItem/Basic": [
-        "String"
-    ],
-    "Infobox/Currency": [
-        "Loader",
-        "String",
-        "Arguments",
-        "Bazaar",
-        "Infobox",
-        "Infobox/Common",
-        "Infobox/Common/Basic",
-        "Infobox/Common/Image"
-    ],
-    "Infobox/Data": [],
-    "Infobox/Dungeon": [
-        "Arguments",
-        "Infobox",
-        "Infobox/Common",
-        "Infobox/Common/Basic",
-        "Infobox/Common/Image/Basic"
-    ],
-    "Infobox/Gadget": [
-        "Infobox",
-        "Arguments",
-        "DPL",
-        "Table",
-        "String"
-    ],
-    "Infobox/Generic": [
-        "Arguments",
-        "Infobox"
-    ],
-    "Infobox/Item": [
-        "Loader",
-        "String",
-        "Table",
-        "Yesno",
-        "Arguments",
-        "Stat",
-        "Stat/Order",
-        "Rarity",
-        "Collection/Link",
-        "Odds",
-        "Bazaar",
-        "AuctionHouse",
-        "List",
-        "Currency",
-        "Item",
-        "Item/Display",
-        "Pet/Utils",
-        "Gemstone",
-        "NPC/Display",
-        "Sacks",
-        "Infobox",
-        "Infobox/Common",
-        "Infobox/Common/Basic",
-        "Infobox/Common/Image",
-        "Infobox/Common/SlotItem",
-        "Potion/Data",
-        "Armor/Sets"
-    ],
-    "Infobox/Minion": [
-        "Loader",
-        "String",
-        "Table",
-        "Yesno",
-        "Arguments",
-        "Infobox",
-        "Infobox/Common",
-        "Infobox/Common/Basic",
-        "Infobox/Common/Image",
-        "Infobox/Common/SlotItem"
-    ],
-    "Infobox/Mob": [
-        "Loader",
-        "String",
-        "Table",
-        "Yesno",
-        "Arguments",
-        "Mob",
-        "Mob/Display",
-        "MobType",
-        "Rarity",
-        "Stat",
-        "Stat/Order",
-        "Infobox",
-        "Infobox/Common",
-        "Infobox/Common/Basic",
-        "Infobox/Common/Image/Basic"
-    ],
-    "Infobox/Npc": [
-        "Loader",
-        "String",
-        "Table",
-        "Yesno",
-        "Arguments",
-        "Inventory slot/Core",
-        "Minimap",
-        "Mayor",
-        "Infobox",
-        "Infobox/Common",
-        "Infobox/Common/Basic",
-        "Infobox/Common/Image/Basic",
-        "Infobox/Common/SlotItem/Basic",
-        "Infobox/Data"
-    ],
-    "Infobox/Quest": [
-        "Loader",
-        "String",
-        "Table",
-        "Yesno",
-        "Arguments",
-        "Infobox",
-        "Infobox/Common",
-        "Infobox/Common/Basic"
-    ],
-    "Infobox/Shard": [
-        "Loader",
-        "String",
-        "Yesno",
-        "Arguments",
-        "Rarity",
-        "Bazaar",
-        "Inventory slot",
-        "Infobox",
-        "Infobox/Common",
-        "Infobox/Common/Basic",
-        "Infobox/Common/Image",
-        "Infobox/Common/SlotItem"
-    ],
-    "Infobox/Skill": [
-        "Loader",
-        "Arguments",
-        "Infobox",
-        "Infobox/Common",
-        "Infobox/Common/Basic",
-        "Infobox/Common/Image/Basic"
-    ],
-    "Infobox/Stat": [
-        "Loader",
-        "String",
-        "Table",
-        "Arguments",
-        "Infobox",
-        "Infobox/Common",
-        "Infobox/Common/Basic",
-        "Infobox/Common/Image/Basic"
-    ],
-    "Infobox/Templates": [
-        "Arguments"
-    ],
-    "Infobox/Upgrade": [
-        "Loader",
-        "Arguments",
-        "Infobox",
-        "Infobox/Common",
-        "Infobox/Common/Basic",
-        "Infobox/Common/Image/Basic"
-    ],
-    "Infobox/Zone": [
-        "Loader",
-        "String",
-        "Table",
-        "Mob",
-        "Arguments",
-        "Fairy Souls",
-        "Enigma Souls",
-        "NPC",
-        "Infobox",
-        "Infobox/Common",
-        "Infobox/Common/Basic",
-        "Infobox/Common/Image/Basic"
-    ],
-    "Infobox/i18n": [],
-    "Infobox/testcases": [
-        "Infobox"
-    ],
-    "InterestingStats": [
-        "Arguments",
-        "String",
-        "Stat",
-        "Stat/Aliases"
-    ],
-    "InterestingStats/StatFacts": [],
-    "Inventory slot": [
-        "Arguments",
-        "String",
-        "Table",
-        "Currency",
-        "Random",
-        "Inventory slot/Core",
-        "Inventory slot/Datasheet",
-        "Inventory slot/Aliases",
-        "Item/Variants"
-    ],
-    "Inventory slot/Aliases": [],
-    "Inventory slot/Core": [
-        "String",
-        "Random"
-    ],
-    "Inventory slot/Datasheet": [
-        "Table",
-        "Inventory slot/Utils",
-        "Inventory slot/Templates",
-        "Inventory slot/Tooltips",
-        "Color/Data"
-    ],
-    "Inventory slot/Templates": [
-        "Minion/Templates",
-        "Pet/Templates",
-        "Enchantment",
-        "Potion",
-        "Attribute Shard"
-    ],
-    "Inventory slot/Tooltips": [],
-    "Inventory slot/Utils": [
-        "String",
-        "Table",
-        "Rarity",
-        "UIText/Data",
-        "Inventory slot/Templates"
-    ],
-    "Item": [
-        "String",
-        "Table",
-        "Yesno",
-        "Arguments",
-        "Rarity",
-        "Currency",
-        "Color",
-        "Enchantment/Display",
-        "List",
-        "Item/Data",
-        "Armor/Sets",
-        "Item/ApiData",
-        "Item/ApiAliases"
-    ],
-    "Item stats": [
-        "Color",
-        "Stat",
-        "Rarity",
-        "Ability",
-        "Inventory slot",
-        "Stat/Order"
-    ],
-    "Item/ApiAliases": [],
-    "Item/ApiData": [],
-    "Item/ApiData/AsCacheTable": [
-        "Item/ApiData"
-    ],
-    "Item/Data": [],
-    "Item/Display": [
-        "Arguments",
-        "String",
-        "Table",
-        "Yesno",
-        "Color",
-        "List",
-        "Rarity",
-        "Enchantment/Display"
-    ],
-    "Item/Display/testcases": [
-        "Item/Display",
-        "ScribuntoUnit"
-    ],
-    "Item/Variants": [
-        "Table",
-        "String",
-        "Color/Data",
-        "Pet/Templates",
-        "Minion/Templates",
-        "Potion",
-        "Enchantment",
-        "LibU",
-        "Armor/Sets"
-    ],
-    "ItemInfo": [
-        "Arguments",
-        "Item stats"
-    ],
-    "ItemInfo/Templates": [
-        "Arguments",
-        "Color"
-    ],
-    "IterativeInventorySlot": [
-        "Arguments",
-        "Table",
-        "String"
-    ],
-    "JSON": [
-        "Table",
-        "LibU"
-    ],
-    "Kat": [
-        "Arguments",
-        "Yesno",
-        "Table",
-        "String"
-    ],
-    "KatCostModule": [],
-    "Keypress": [
-        "Arguments",
-        "Yesno"
-    ],
-    "Lexer": [],
-    "LibU": [],
-    "LibraryUtil": [
-        "LibU"
-    ],
-    "Link": [
-        "String",
-        "Table",
-        "Yesno",
-        "Arguments"
-    ],
-    "List": [
-        "Arguments",
-        "String",
-        "Table",
-        "Yesno"
-    ],
-    "Loader": [
-        "Table",
-        "LibU",
-        "Class"
-    ],
-    "LuaFunction": [
-        "String",
-        "Table",
-        "Yesno",
-        "Class",
-        "Color",
-        "Arguments",
-        "LibU"
-    ],
-    "MCWString": [
-        "String"
-    ],
-    "Mainonly": [],
-    "MaintenanceChecker": [
-        "Loader",
-        "String",
-        "Table",
-        "LibU",
-        "Pet/Data",
-        "Minion/Data",
-        "Minion/Aliases",
-        "Rarity/Data",
-        "Stat/Data",
-        "Skill/Data",
-        "Collection/Data",
-        "Staff/Members",
-        "Enchantment/Data",
-        "Potion/Data",
-        "Inventory slot/Datasheet"
-    ],
-    "Mayor": [
-        "Loader",
-        "Arguments",
-        "String",
-        "Table",
-        "SBTE",
-        "Mayor/Elections/Data",
-        "Mayor/Elections/ApiData",
-        "Mayor/Data"
-    ],
-    "Mayor/Data": [],
-    "Mayor/Elections": [],
-    "Mayor/Elections/ApiData": [
-        "Mayor/Data"
-    ],
-    "Mayor/Elections/Automated": [],
-    "Mayor/Elections/Data": [
-        "Mayor/Data"
-    ],
-    "Mayor/UI": [
-        "Arguments",
-        "String",
-        "Table",
-        "Mayor",
-        "Inventory slot/Utils",
-        "Mayor/Data",
-        "Mayor/Elections"
-    ],
-    "Mbox": [
-        "Arguments",
-        "Mbox/data"
-    ],
-    "Mbox/data": [],
-    "Mctxt": [
-        "Arguments"
-    ],
-    "Minimap": [
-        "Arguments",
-        "String",
-        "Table",
-        "SafeResponse",
-        "Minimap/Data",
-        "Minimap/Datasheet",
-        "Minimap/Aliases",
-        "Zone/Data",
-        "Zone/Aliases"
-    ],
-    "Minimap/Aliases": [],
-    "Minimap/Data": [],
-    "Minimap/Datasheet": [],
-    "Minion": [
-        "Arguments",
-        "Loader",
-        "String",
-        "Table",
-        "Yesno",
-        "LibU",
-        "SafeResponse",
-        "String/Templates",
-        "Inventory slot",
-        "Bazaar",
-        "Currency",
-        "Item",
-        "Skill",
-        "Crafting/Bucket",
-        "Collection/Link",
-        "Minion/Data",
-        "Minion/Aliases"
-    ],
-    "Minion/Aliases": [],
-    "Minion/Data": [],
-    "Minion/MinionPageRow": [
-        "Arguments",
-        "String",
-        "Table",
-        "String/Templates",
-        "Minion/Data",
-        "Minion/Aliases"
-    ],
-    "Minion/Modifiers": [
-        "Arguments",
-        "String",
-        "Table",
-        "Yesno",
-        "SafeResponse"
-    ],
-    "Minion/Templates": [
-        "String",
-        "Table",
-        "Minion/Data"
-    ],
-    "Minion/UI": [
-        "Loader",
-        "String",
-        "Table",
-        "Yesno",
-        "Arguments",
-        "Inventory slot",
-        "Crafting/UI",
-        "UI/Core",
-        "Minion",
-        "SafeResponse"
-    ],
-    "MinionFullProfitTable": [
-        "Arguments",
-        "String",
-        "String/Templates",
-        "Table",
-        "Yesno",
-        "SafeResponse",
-        "Minion",
-        "Currency",
-        "Minion/Data"
-    ],
-    "Misc": [
-        "Arguments",
-        "String",
-        "Table"
-    ],
-    "Mob": [
-        "Arguments",
-        "Loader",
-        "Yesno",
-        "Odds",
-        "Item",
-        "Color",
-        "Mob/Display",
-        "MobType",
-        "Zone",
-        "Skill",
-        "Currency",
-        "Mainonly",
-        "String"
-    ],
-    "Mob spawns": [
-        "Arguments",
-        "Format",
-        "Mob/Display"
-    ],
-    "Mob variants": [
-        "Arguments",
-        "String",
-        "Color",
-        "Stat/Data",
-        "Stat/Order"
-    ],
-    "Mob/Aliases": [],
-    "Mob/Data": [],
-    "Mob/Display": [
-        "Table",
-        "Arguments",
-        "Sprite",
-        "List",
-        "Mob/Data",
-        "Mob/Aliases"
-    ],
-    "MobLevel": [
-        "Arguments",
-        "Yesno"
-    ],
-    "MobType": [
-        "Arguments",
-        "Color",
-        "MobType/Data"
-    ],
-    "MobType/Data": [],
-    "MultiRequire": [
-        "LibU"
-    ],
-    "NPC": [
-        "Arguments",
-        "Table",
-        "Zone/Data"
-    ],
-    "NPC/Aliases": [],
-    "NPC/Data": [],
-    "NPC/Display": [
-        "Table",
-        "Arguments",
-        "Sprite",
-        "List",
-        "NPC/Data",
-        "NPC/Aliases"
-    ],
-    "NPCPriceSpread": [
-        "Arguments",
-        "Table",
-        "String",
-        "Yesno"
-    ],
-    "Namespace detect": [
-        "Yesno",
-        "Arguments",
-        "TableTools",
-        "Namespace detect/data"
-    ],
-    "Namespace detect/data": [],
-    "Navbar": [
-        "Arguments"
-    ],
-    "Navbox": [],
-    "Navigation Bar": [
-        "Arguments",
-        "Yesno"
-    ],
-    "NoteSequence": [
-        "Arguments",
-        "String",
-        "Table",
-        "Color"
-    ],
-    "NoteSequence/testcases": [
-        "NoteSequence",
-        "ScribuntoUnit"
-    ],
-    "Notice": [
-        "Arguments",
-        "Yesno",
-        "Notice/Data"
-    ],
-    "Notice/Data": [],
-    "Nowiki": [
-        "Arguments"
-    ],
-    "Number": [],
-    "NumberSpell": [
-        "Arguments"
-    ],
-    "Odds": [
-        "Arguments",
-        "String",
-        "Table",
-        "Yesno",
-        "Color",
-        "Odds/Data",
-        "Odds/Aliases"
-    ],
-    "Odds/Aliases": [],
-    "Odds/Data": [],
-    "Page": [
-        "Arguments",
-        "LibU",
-        "CallAssert",
-        "Protect"
-    ],
-    "Page Actions": [
-        "Arguments",
-        "Arguments",
-        "String",
-        "Page Actions/Data"
-    ],
-    "Page Actions/Data": [],
-    "ParserFunctions": [
-        "Arguments",
-        "String",
-        "Yesno",
-        "LibU"
-    ],
-    "Perkpocalypse": [
-        "Arguments",
-        "SBTE",
-        "Yesno"
-    ],
-    "Pet": [
-        "Loader",
-        "String",
-        "Table",
-        "Yesno",
-        "LibU",
-        "Color",
-        "Currency",
-        "Ability",
-        "Rarity",
-        "Stat",
-        "Inventory slot/Core",
-        "Inventory slot/Utils",
-        "Arguments",
-        "Pet/Utils",
-        "Bazaar",
-        "Pet/LevelingData",
-        "UIText/Data",
-        "Rarity/Aliases"
-    ],
-    "Pet Item": [
-        "String",
-        "Rarity",
-        "Pet Item/Data",
-        "UIText/Data"
-    ],
-    "Pet Item/Data": [],
-    "Pet/Data": [],
-    "Pet/LevelingData": [
-        "Table"
-    ],
-    "Pet/Skins": [],
-    "Pet/Templates": [
-        "Loader",
-        "String",
-        "Table",
-        "Rarity",
-        "Stat",
-        "Pet/Utils",
-        "Pet/Data",
-        "Pet/Skins",
-        "Rarity/Aliases"
-    ],
-    "Pet/UI": [
-        "Loader",
-        "Pet/Data",
-        "Arguments",
-        "String",
-        "Table",
-        "Rarity",
-        "UI/Core",
-        "Pet/Utils",
-        "UIText",
-        "Rarity/Aliases",
-        "Yesno",
-        "Inventory slot",
-        "Stat",
-        "Ability",
-        "Color",
-        "Rarity/Data"
-    ],
-    "Pet/Utils": [
-        "Loader",
-        "String",
-        "Table",
-        "Yesno",
-        "Rarity",
-        "Stat",
-        "Pet Item",
-        "Pet/Data",
-        "Rarity/Aliases",
-        "UIText/Data"
-    ],
-    "Potion": [
-        "String",
-        "Table",
-        "Potion/Data",
-        "Potion/Aliases"
-    ],
-    "Potion/Aliases": [],
-    "Potion/Data": [],
-    "Potion/Display": [
-        "String",
-        "Yesno",
-        "Color",
-        "Arguments",
-        "Potion/Data",
-        "Potion/Aliases"
-    ],
-    "Potion/PotionPageRow": [
-        "Arguments",
-        "String",
-        "Table",
-        "Inventory slot",
-        "Potion/Display",
-        "Rarity",
-        "Potion/Data",
-        "Potion/Aliases"
-    ],
-    "Potion/UI": [
-        "Arguments",
-        "Potion",
-        "UI/Core",
-        "Inventory slot/Aliases"
-    ],
-    "Power": [
-        "Arguments",
-        "Stat",
-        "Color",
-        "Inventory slot",
-        "SafeResponse"
-    ],
-    "Power/Display": [
-        "Arguments"
-    ],
-    "ProcessArgs": [],
-    "Protect": [],
-    "Quote": [
-        "Arguments",
-        "I18n"
-    ],
-    "RNG Meter/Catacombs Requirements": [],
-    "Random": [
-        "Yesno",
-        "Random/Dependencies"
-    ],
-    "Random/Dependencies": [
-        "LibraryUtil"
-    ],
-    "Random/Modifications/ThatIPEditor": [
-        "Yesno",
-        "List"
-    ],
-    "Rank": [
-        "Arguments",
-        "String",
-        "Table",
-        "Yesno",
-        "Rank/Data",
-        "Rank/Aliases"
-    ],
-    "Rank/Aliases": [],
-    "Rank/Data": [],
-    "Rarity": [
-        "Arguments",
-        "Table",
-        "Yesno",
-        "Color",
-        "Mainonly",
-        "Rarity/Aliases",
-        "Rarity/Data"
-    ],
-    "Rarity/Aliases": [],
-    "Rarity/Data": [],
-    "Recipe table": [],
-    "Recipe tree": [
-        "Arguments",
-        "Item"
-    ],
-    "Recipe tree/Examples": [
-        "Recipe tree",
-        "Item",
-        "Bazaar",
-        "Bazaar"
-    ],
-    "Reforge": [
-        "String",
-        "Table",
-        "Arguments",
-        "Rarity",
-        "Coins",
-        "Stat",
-        "Mctxt",
-        "Item",
-        "Reforge/Data"
-    ],
-    "Reforge/Data": [],
-    "Reforge/Display": [
-        "Arguments"
-    ],
-    "Relations": [
-        "Arguments",
-        "Arguments",
-        "Yesno",
-        "String"
-    ],
-    "Reply to": [
-        "String"
-    ],
-    "Report": [
-        "String",
-        "Table",
-        "LibU",
-        "Arguments",
-        "User"
-    ],
-    "RightBox": [
-        "String",
-        "Table",
-        "Yesno",
-        "LibU",
-        "Arguments"
-    ],
-    "RomanNumeral": [
-        "Arguments"
-    ],
-    "SBTC": [
-        "SBTE"
-    ],
-    "SBTE": [
-        "Class"
-    ],
-    "Sacks": [
-        "Arguments",
-        "Table",
-        "Color",
-        "Item/Display"
-    ],
-    "SafeResponse": [
-        "String/Templates",
-        "JSON",
-        "SafeResponse/Data"
-    ],
-    "SafeResponse/Data": [],
-    "ScribuntoUnit": [
-        "ScribuntoUnit/config"
-    ],
-    "ScribuntoUnit/config": [],
-    "SeaCreature": [
-        "String",
-        "Table",
-        "Arguments",
-        "SeaCreature/Datasheet"
-    ],
-    "SeaCreature/Datasheet": [],
-    "Separated entries": [],
-    "Shards": [
-        "Loader",
-        "Arguments",
-        "Inventory slot",
-        "Rarity"
-    ],
-    "Sidebar": [
-        "Arguments",
-        "Navbar"
-    ],
-    "Skill": [
-        "Arguments",
-        "String",
-        "Table",
-        "Yesno",
-        "Color",
-        "LibU",
-        "Skill/Data",
-        "Skill/Aliases"
-    ],
-    "Skill/Aliases": [],
-    "Skill/Data": [],
-    "Sprite": [
-        "Yesno",
-        "LibU"
-    ],
-    "Sprite/testcases": [
-        "Sprite",
-        "ScribuntoUnit"
-    ],
-    "Staff": [
-        "Arguments",
-        "String",
-        "Table",
-        "Yesno",
-        "User",
-        "Staff/Data",
-        "User/Data",
-        "User/Aliases",
-        "Staff/Members"
-    ],
-    "Staff/Data": [],
-    "Staff/Members": [],
-    "Stat": [
-        "Table",
-        "Yesno",
-        "Arguments",
-        "Color",
-        "SafeResponse",
-        "List",
-        "Stat/Aliases",
-        "Stat/Data"
-    ],
-    "Stat/Aliases": [],
-    "Stat/Data": [],
-    "Stat/Meta": [
-        "MultiRequire",
-        "Stat"
-    ],
-    "Stat/Order": [],
-    "String": [
-        "Arguments",
-        "Yesno",
-        "LibU",
-        "Table",
-        "String/Lorem"
-    ],
-    "String/Lorem": [],
-    "String/Templates": [
-        "String",
-        "Table",
-        "Yesno",
-        "Color",
-        "Mctxt",
-        "Arguments"
-    ],
-    "T": [
-        "Arguments",
-        "User error",
-        "Yesno"
-    ],
-    "TSLoader": [
-        "ProcessArgs"
-    ],
-    "Tabber": [
-        "Arguments"
-    ],
-    "Table": [
-        "LibU",
-        "Class"
-    ],
-    "Tabview": [
-        "Arguments",
-        "String",
-        "Table",
-        "Yesno",
-        "JSON"
-    ],
-    "Tag": [
-        "Arguments",
-        "String"
-    ],
-    "Template link general": [
-        "Arguments"
-    ],
-    "TemplateList": [
-        "Arguments"
-    ],
-    "Time ago": [
-        "NumberSpell",
-        "Yesno",
-        "Date",
-        "Arguments"
-    ],
-    "TooltipText": [
-        "Arguments",
-        "String"
-    ],
-    "Top": [],
-    "UI": [
-        "Arguments",
-        "Loader",
-        "String",
-        "Table",
-        "Yesno",
-        "Inventory slot",
-        "Crafting",
-        "UI/Core",
-        "Random",
-        "Mctxt"
-    ],
-    "UI/Core": [
-        "Class",
-        "Yesno",
-        "Inventory slot",
-        "LibU"
-    ],
-    "UIText": [
-        "Arguments",
-        "Loader",
-        "String",
-        "Table",
-        "LibU",
-        "Stat",
-        "Rarity",
-        "Zone",
-        "Potion/Data",
-        "Potion/Aliases",
-        "Enchantment/Data",
-        "Enchantment/Aliases",
-        "Rarity/Data",
-        "Rarity/Aliases",
-        "UIText/Data",
-        "Gemstone/Data"
-    ],
-    "UIText/Data": [],
-    "Unindent": [],
-    "Unsigned": [
-        "IPAddress old",
-        "ProcessArgs"
-    ],
-    "User": [
-        "Arguments",
-        "String",
-        "Table",
-        "Yesno",
-        "LibU",
-        "User/Data",
-        "User/Aliases"
-    ],
-    "User error": [
-        "LibraryUtil"
-    ],
-    "User/Aliases": [],
-    "User/Data": [],
-    "Userbox": [
-        "String",
-        "Table",
-        "Arguments",
-        "Userbox/Skins"
-    ],
-    "Userbox/Skins": [],
-    "VideoGallery": [],
-    "Weapon": [
-        "Arguments"
-    ],
-    "Weapon/Data": [],
-    "Weight": [
-        "String",
-        "Yesno",
-        "Arguments",
-        "Rarity",
-        "Weight/Data"
-    ],
-    "Weight/Data": [],
-    "Wikitable": [
-        "WP:Wikitable"
-    ],
-    "Yesno": [],
-    "Yesno/template": [
-        "String",
-        "Arguments",
-        "Yesno"
-    ],
-    "Zone": [
-        "String",
-        "Table",
-        "Arguments",
-        "Color",
-        "List",
-        "Zone/Data",
-        "Zone/Aliases"
-    ],
-    "Zone/Aliases": [],
-    "Zone/Data": [],
-    "Coins": []
+    "Module:AIV": [
+        "Module:String",
+        "Module:Table"
+    ],
+    "Module:Ability": [
+        "Module:Arguments",
+        "Module:Yesno",
+        "Module:Color/Data"
+    ],
+    "Module:Achievement/Display": [
+        "Module:String",
+        "Module:Yesno",
+        "Module:Arguments"
+    ],
+    "Module:AlphaStatus": [
+        "Module:AlphaStatus/Data"
+    ],
+    "Module:AlphaStatus/Data": [],
+    "Module:Animate": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno"
+    ],
+    "Module:Animate/Item": [
+        "Module:Arguments",
+        "Module:Yesno",
+        "Module:Animate",
+        "Module:Item/Variants"
+    ],
+    "Module:Arguments": [
+        "Module:LibU"
+    ],
+    "Module:Armor/Sets": [],
+    "Module:Attribute Shard": [
+        "Module:String",
+        "Module:Attribute Shard/Data"
+    ],
+    "Module:Attribute Shard/Data": [],
+    "Module:Attribute Shard/Display": [
+        "Module:Arguments"
+    ],
+    "Module:Attribute/Display": [
+        "Module:Arguments"
+    ],
+    "Module:AuctionHouse": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:Currency",
+        "Module:Color",
+        "Module:Base64",
+        "Module:AuctionHouse/Aliases",
+        "Module:AuctionHouse/Items",
+        "Module:AuctionHouse/Data"
+    ],
+    "Module:AuctionHouse/Aliases": [],
+    "Module:AuctionHouse/Data": [],
+    "Module:AuctionHouse/Items": [],
+    "Module:Bank": [
+        "Module:Arguments",
+        "Module:Yesno"
+    ],
+    "Module:Base64": [],
+    "Module:Bazaar": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:Currency",
+        "Module:Color",
+        "Module:Base64",
+        "Module:Bazaar/Aliases",
+        "Module:Bazaar/Items",
+        "Module:Bazaar/i18n",
+        "Module:Bazaar/Data"
+    ],
+    "Module:Bazaar/Aliases": [],
+    "Module:Bazaar/Data": [],
+    "Module:Bazaar/Items": [],
+    "Module:Bazaar/i18n": [],
+    "Module:Bestiary": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Yesno",
+        "Module:BestiaryTiers"
+    ],
+    "Module:BestiaryTiers": [],
+    "Module:BucketPut": [],
+    "Module:Calculator": [
+        "Module:Arguments",
+        "Module:Color",
+        "Module:Tabber",
+        "Module:Calculator/Config"
+    ],
+    "Module:Calculator/Config": [],
+    "Module:CallAssert": [],
+    "Module:Catacombs Loot": [
+        "Module:Arguments",
+        "Module:Table",
+        "Module:Color",
+        "Module:Item",
+        "Module:Currency",
+        "Module:String"
+    ],
+    "Module:Chance": [
+        "Module:Arguments"
+    ],
+    "Module:Changelog": [
+        "Module:Arguments",
+        "Module:String"
+    ],
+    "Module:Checkbox": [],
+    "Module:Chocolate": [
+        "Module:Arguments",
+        "Module:Yesno"
+    ],
+    "Module:Class": [],
+    "Module:Class/testcases": [
+        "Module:Class"
+    ],
+    "Module:Collection": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:Item/Display",
+        "Module:Color",
+        "Module:Skill",
+        "Module:Enchantment/Display",
+        "Module:Collection/Data"
+    ],
+    "Module:Collection/Data": [],
+    "Module:Collection/Link": [
+        "Module:String",
+        "Module:Yesno",
+        "Module:Color",
+        "Module:Arguments",
+        "Module:Collection/Data"
+    ],
+    "Module:Collection/UI": [
+        "Module:Loader",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:LibU",
+        "Module:UIText",
+        "Module:UI/Core",
+        "Module:Potion",
+        "Module:Potion/UI",
+        "Module:Random",
+        "Module:Arguments",
+        "Module:Pet",
+        "Module:Collection/Data",
+        "Module:Collection/UI/Data",
+        "Module:Inventory slot/Datasheet",
+        "Module:Armor/Sets",
+        "Module:Potion/Data"
+    ],
+    "Module:Collection/UI/Data": [],
+    "Module:Color": [
+        "Module:Arguments",
+        "Module:Yesno",
+        "Module:Color/Data"
+    ],
+    "Module:Color Conversion": [
+        "Module:Arguments"
+    ],
+    "Module:Color contrast/colors": [],
+    "Module:Color/Conversion": [
+        "Module:Arguments"
+    ],
+    "Module:Color/Data": [],
+    "Module:Cosmetic": [
+        "Module:String",
+        "Module:Arguments",
+        "Module:Rarity"
+    ],
+    "Module:Countdown": [
+        "Module:Arguments",
+        "Module:Yesno"
+    ],
+    "Module:Crafting": [
+        "Module:Table",
+        "Module:Inventory slot",
+        "Module:Arguments",
+        "Module:Crafting/Utils",
+        "Module:Crafting/Bucket",
+        "Module:Item/Variants"
+    ],
+    "Module:Crafting recipe table": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Yesno",
+        "Module:Crafting/UI",
+        "Module:Crafting/Bucket",
+        "Module:Recipe tree"
+    ],
+    "Module:Crafting/Bucket": [
+        "Module:String"
+    ],
+    "Module:Crafting/UI": [
+        "Module:Arguments",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:Crafting",
+        "Module:UI/Core",
+        "Module:Element",
+        "Module:Crafting/Bucket"
+    ],
+    "Module:Crafting/Utils": [
+        "Module:String",
+        "Module:Table"
+    ],
+    "Module:Crop Milestone Table": [],
+    "Module:Crystal Nucleus": [
+        "Module:Arguments",
+        "Module:Yesno",
+        "Module:Item",
+        "Module:Color",
+        "Module:String"
+    ],
+    "Module:Currency": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:Color",
+        "Module:Currency/Data"
+    ],
+    "Module:Currency/Data": [],
+    "Module:Currency/testcases": [
+        "Module:Currency",
+        "Module:ScribuntoUnit"
+    ],
+    "Module:DPL": [
+        "Module:Table",
+        "Module:String",
+        "Module:Yesno",
+        "Module:LibU"
+    ],
+    "Module:DamageType": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Yesno",
+        "Module:Color",
+        "Module:LibU",
+        "Module:DamageType/Data"
+    ],
+    "Module:DamageType/Data": [],
+    "Module:Date": [],
+    "Module:Debug": [],
+    "Module:DetailedList": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:Item/Display",
+        "Module:DetailedList/Data"
+    ],
+    "Module:DetailedList/Data": [],
+    "Module:DetailedList/testcases": [
+        "Module:DetailedList",
+        "Module:ScribuntoUnit"
+    ],
+    "Module:Discord": [
+        "Module:Arguments"
+    ],
+    "Module:Docbunto": [
+        "Module:I18n",
+        "Module:Lexer",
+        "Module:Unindent",
+        "Module:Yesno",
+        "Module:Arguments",
+        "Module:FrameTools",
+        "Module:FrameTools",
+        "Module:Docbunto/references"
+    ],
+    "Module:Docbunto/i18n": [],
+    "Module:Docbunto/references": [],
+    "Module:Documentation": [
+        "Module:Arguments",
+        "Module:Documentation/Core"
+    ],
+    "Module:Documentation/Config": [],
+    "Module:Documentation/Core": [
+        "Module:String",
+        "Module:Table",
+        "Module:Class",
+        "Module:LibU",
+        "Module:Documentation/Config"
+    ],
+    "Module:Documentation/Parameters": [
+        "Module:Class",
+        "Module:Table",
+        "Module:Arguments",
+        "Module:Number",
+        "Module:String",
+        "Module:LibU"
+    ],
+    "Module:Dungeon": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:LibU",
+        "Module:Color",
+        "Module:Item"
+    ],
+    "Module:Element": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno"
+    ],
+    "Module:Enchantment": [
+        "Module:String",
+        "Module:String/Templates",
+        "Module:Table",
+        "Module:Mctxt",
+        "Module:Rarity",
+        "Module:Arguments",
+        "Module:Enchantment/Data"
+    ],
+    "Module:Enchantment/Aliases": [],
+    "Module:Enchantment/Data": [],
+    "Module:Enchantment/Display": [
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:Color",
+        "Module:LibU",
+        "Module:Arguments",
+        "Module:Enchantment/Data",
+        "Module:Enchantment/Aliases"
+    ],
+    "Module:Enchantment/EnchantmentPageRow": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:Rarity",
+        "Module:Enchantment/Display",
+        "Module:Skill",
+        "Module:Enchantment/Data"
+    ],
+    "Module:EnchantmentBazaarStats": [
+        "Module:Arguments",
+        "Module:String"
+    ],
+    "Module:Enigma Souls": [
+        "Module:Arguments",
+        "Module:Table",
+        "Module:Zone/Data"
+    ],
+    "Module:Entrypoint": [],
+    "Module:Example": [
+        "Module:Arguments",
+        "Module:MultiRequire"
+    ],
+    "Module:Fairy Souls": [
+        "Module:Arguments",
+        "Module:Table",
+        "Module:Zone/Data"
+    ],
+    "Module:Fallbacklist": [],
+    "Module:FileInfo": [
+        "Module:Arguments",
+        "Module:LibU",
+        "Module:String",
+        "Module:Yesno"
+    ],
+    "Module:FixedRound": [],
+    "Module:ForcePageImage": [],
+    "Module:Format": [
+        "Module:Arguments",
+        "Module:Yesno"
+    ],
+    "Module:Gemstone": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:Gemstone/Data"
+    ],
+    "Module:Gemstone/Data": [],
+    "Module:Global signature": [],
+    "Module:Hatnote": [
+        "libraryUtil",
+        "Module:Hatnote/i18n",
+        "Module:Arguments",
+        "Module:Yesno"
+    ],
+    "Module:Hatnote/i18n": [],
+    "Module:Heart of the Forest": [
+        "Module:Arguments",
+        "Module:LibU"
+    ],
+    "Module:Heart of the Mountain": [
+        "Module:Arguments",
+        "Module:LibU",
+        "Module:Item/Display",
+        "Module:HypixelServerTime"
+    ],
+    "Module:History": [
+        "Module:String",
+        "Module:Table",
+        "Module:Arguments",
+        "Module:History/Datasheet",
+        "Module:History/Aliases"
+    ],
+    "Module:History/Aliases": [],
+    "Module:History/Datasheet": [],
+    "Module:Html": [
+        "Module:String",
+        "Module:Table",
+        "Module:LibU"
+    ],
+    "Module:HypixelServerTime": [],
+    "Module:I18n": [
+        "Module:Fallbacklist",
+        "Module:Entrypoint"
+    ],
+    "Module:IP": [
+        "bit32",
+        "libraryUtil"
+    ],
+    "Module:IPAddress": [
+        "Module:IP"
+    ],
+    "Module:IPAddress old": [],
+    "Module:Image": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table"
+    ],
+    "Module:Infobox": [
+        "Module:Arguments",
+        "Module:LibU",
+        "Module:Table",
+        "Module:Class"
+    ],
+    "Module:Infobox/Common": [
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:String/Templates",
+        "Module:Infobox/Data"
+    ],
+    "Module:Infobox/Common/Basic": [
+        "Module:Infobox/Common",
+        "Module:Infobox/Data"
+    ],
+    "Module:Infobox/Common/Image": [
+        "Module:String",
+        "Module:Table",
+        "Module:Animate/Item"
+    ],
+    "Module:Infobox/Common/Image/Basic": [
+        "Module:String",
+        "Module:Table",
+        "Module:Animate"
+    ],
+    "Module:Infobox/Common/SlotItem": [
+        "Module:String",
+        "Module:Inventory slot"
+    ],
+    "Module:Infobox/Common/SlotItem/Basic": [
+        "Module:String"
+    ],
+    "Module:Infobox/Currency": [
+        "Module:Loader",
+        "Module:String",
+        "Module:Arguments",
+        "Module:Bazaar",
+        "Module:Infobox",
+        "Module:Infobox/Common",
+        "Module:Infobox/Common/Basic",
+        "Module:Infobox/Common/Image"
+    ],
+    "Module:Infobox/Data": [],
+    "Module:Infobox/Dungeon": [
+        "Module:Arguments",
+        "Module:Infobox",
+        "Module:Infobox/Common",
+        "Module:Infobox/Common/Basic",
+        "Module:Infobox/Common/Image/Basic"
+    ],
+    "Module:Infobox/Gadget": [
+        "Module:Infobox",
+        "Module:Arguments",
+        "Module:DPL",
+        "Module:Table",
+        "Module:String"
+    ],
+    "Module:Infobox/Generic": [
+        "Module:Arguments",
+        "Module:Infobox"
+    ],
+    "Module:Infobox/Item": [
+        "Module:Loader",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:Arguments",
+        "Module:Stat",
+        "Module:Stat/Order",
+        "Module:Rarity",
+        "Module:Collection/Link",
+        "Module:Odds",
+        "Module:Bazaar",
+        "Module:AuctionHouse",
+        "Module:List",
+        "Module:Currency",
+        "Module:Item",
+        "Module:Item/Display",
+        "Module:Pet/Utils",
+        "Module:Gemstone",
+        "Module:NPC/Display",
+        "Module:Sacks",
+        "Module:Infobox",
+        "Module:Infobox/Common",
+        "Module:Infobox/Common/Basic",
+        "Module:Infobox/Common/Image",
+        "Module:Infobox/Common/SlotItem",
+        "Module:Potion/Data",
+        "Module:Armor/Sets"
+    ],
+    "Module:Infobox/Minion": [
+        "Module:Loader",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:Arguments",
+        "Module:Infobox",
+        "Module:Infobox/Common",
+        "Module:Infobox/Common/Basic",
+        "Module:Infobox/Common/Image",
+        "Module:Infobox/Common/SlotItem"
+    ],
+    "Module:Infobox/Mob": [
+        "Module:Loader",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:Arguments",
+        "Module:Mob",
+        "Module:Mob/Display",
+        "Module:MobType",
+        "Module:Rarity",
+        "Module:Stat",
+        "Module:Stat/Order",
+        "Module:Infobox",
+        "Module:Infobox/Common",
+        "Module:Infobox/Common/Basic",
+        "Module:Infobox/Common/Image/Basic"
+    ],
+    "Module:Infobox/Npc": [
+        "Module:Loader",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:Arguments",
+        "Module:Inventory slot/Core",
+        "Module:Minimap",
+        "Module:Mayor",
+        "Module:Infobox",
+        "Module:Infobox/Common",
+        "Module:Infobox/Common/Basic",
+        "Module:Infobox/Common/Image/Basic",
+        "Module:Infobox/Common/SlotItem/Basic",
+        "Module:Infobox/Data"
+    ],
+    "Module:Infobox/Quest": [
+        "Module:Loader",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:Arguments",
+        "Module:Infobox",
+        "Module:Infobox/Common",
+        "Module:Infobox/Common/Basic"
+    ],
+    "Module:Infobox/Shard": [
+        "Module:Loader",
+        "Module:String",
+        "Module:Yesno",
+        "Module:Arguments",
+        "Module:Rarity",
+        "Module:Bazaar",
+        "Module:Inventory slot",
+        "Module:Infobox",
+        "Module:Infobox/Common",
+        "Module:Infobox/Common/Basic",
+        "Module:Infobox/Common/Image",
+        "Module:Infobox/Common/SlotItem"
+    ],
+    "Module:Infobox/Skill": [
+        "Module:Loader",
+        "Module:Arguments",
+        "Module:Infobox",
+        "Module:Infobox/Common",
+        "Module:Infobox/Common/Basic",
+        "Module:Infobox/Common/Image/Basic"
+    ],
+    "Module:Infobox/Stat": [
+        "Module:Loader",
+        "Module:String",
+        "Module:Table",
+        "Module:Arguments",
+        "Module:Infobox",
+        "Module:Infobox/Common",
+        "Module:Infobox/Common/Basic",
+        "Module:Infobox/Common/Image/Basic"
+    ],
+    "Module:Infobox/Templates": [
+        "Module:Arguments"
+    ],
+    "Module:Infobox/Upgrade": [
+        "Module:Loader",
+        "Module:Arguments",
+        "Module:Infobox",
+        "Module:Infobox/Common",
+        "Module:Infobox/Common/Basic",
+        "Module:Infobox/Common/Image/Basic"
+    ],
+    "Module:Infobox/Zone": [
+        "Module:Loader",
+        "Module:String",
+        "Module:Table",
+        "Module:Mob",
+        "Module:Arguments",
+        "Module:Fairy Souls",
+        "Module:Enigma Souls",
+        "Module:NPC",
+        "Module:Infobox",
+        "Module:Infobox/Common",
+        "Module:Infobox/Common/Basic",
+        "Module:Infobox/Common/Image/Basic"
+    ],
+    "Module:Infobox/i18n": [],
+    "Module:Infobox/testcases": [
+        "Module:Infobox"
+    ],
+    "Module:InterestingStats": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Stat",
+        "Module:Stat/Aliases"
+    ],
+    "Module:InterestingStats/StatFacts": [],
+    "Module:Inventory slot": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:Currency",
+        "Module:Random",
+        "Module:Inventory slot/Core",
+        "Module:Inventory slot/Datasheet",
+        "Module:Inventory slot/Aliases",
+        "Module:Item/Variants"
+    ],
+    "Module:Inventory slot/Aliases": [],
+    "Module:Inventory slot/Core": [
+        "Module:String",
+        "Module:Random"
+    ],
+    "Module:Inventory slot/Datasheet": [
+        "Module:Table",
+        "Module:Inventory slot/Utils",
+        "Module:Inventory slot/Templates",
+        "Module:Inventory slot/Tooltips",
+        "Module:Color/Data"
+    ],
+    "Module:Inventory slot/Templates": [
+        "Module:Minion/Templates",
+        "Module:Pet/Templates",
+        "Module:Enchantment",
+        "Module:Potion",
+        "Module:Attribute Shard"
+    ],
+    "Module:Inventory slot/Tooltips": [],
+    "Module:Inventory slot/Utils": [
+        "Module:String",
+        "Module:Table",
+        "Module:Rarity",
+        "Module:UIText/Data",
+        "Module:Inventory slot/Templates"
+    ],
+    "Module:Item": [
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:Arguments",
+        "Module:Rarity",
+        "Module:Currency",
+        "Module:Color",
+        "Module:Enchantment/Display",
+        "Module:List",
+        "Module:Item/Data",
+        "Module:Armor/Sets",
+        "Module:Item/ApiData",
+        "Module:Item/ApiAliases"
+    ],
+    "Module:Item stats": [
+        "Module:Color",
+        "Module:Stat",
+        "Module:Rarity",
+        "Module:Ability",
+        "Module:Inventory slot",
+        "Module:Stat/Order"
+    ],
+    "Module:Item/ApiAliases": [],
+    "Module:Item/ApiData": [],
+    "Module:Item/ApiData/AsCacheTable": [
+        "Module:Item/ApiData"
+    ],
+    "Module:Item/Data": [],
+    "Module:Item/Display": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:Color",
+        "Module:List",
+        "Module:Rarity",
+        "Module:Enchantment/Display"
+    ],
+    "Module:Item/Display/testcases": [
+        "Module:Item/Display",
+        "Module:ScribuntoUnit"
+    ],
+    "Module:Item/Variants": [
+        "Module:Table",
+        "Module:String",
+        "Module:Color/Data",
+        "Module:Pet/Templates",
+        "Module:Minion/Templates",
+        "Module:Potion",
+        "Module:Enchantment",
+        "Module:LibU",
+        "Module:Armor/Sets"
+    ],
+    "Module:ItemInfo": [
+        "Module:Arguments",
+        "Module:Item stats"
+    ],
+    "Module:ItemInfo/Templates": [
+        "Module:Arguments",
+        "Module:Color"
+    ],
+    "Module:IterativeInventorySlot": [
+        "Module:Arguments",
+        "Module:Table",
+        "Module:String"
+    ],
+    "Module:JSON": [
+        "Module:Table",
+        "Module:LibU"
+    ],
+    "Module:Kat": [
+        "Module:Arguments",
+        "Module:Yesno",
+        "Module:Table",
+        "Module:String"
+    ],
+    "Module:KatCostModule": [],
+    "Module:Keypress": [
+        "Module:Arguments",
+        "Module:Yesno"
+    ],
+    "Module:Lexer": [],
+    "Module:LibU": [],
+    "Module:LibraryUtil": [
+        "Module:LibU"
+    ],
+    "Module:Link": [
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:Arguments"
+    ],
+    "Module:List": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno"
+    ],
+    "Module:Loader": [
+        "Module:Table",
+        "Module:LibU",
+        "Module:Class"
+    ],
+    "Module:LuaFunction": [
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:Class",
+        "Module:Color",
+        "Module:Arguments",
+        "Module:LibU"
+    ],
+    "Module:MCWString": [
+        "Module:String"
+    ],
+    "Module:Mainonly": [],
+    "Module:MaintenanceChecker": [
+        "Module:Loader",
+        "Module:String",
+        "Module:Table",
+        "Module:LibU",
+        "Module:Pet/Data",
+        "Module:Minion/Data",
+        "Module:Minion/Aliases",
+        "Module:Rarity/Data",
+        "Module:Stat/Data",
+        "Module:Skill/Data",
+        "Module:Collection/Data",
+        "Module:Staff/Members",
+        "Module:Enchantment/Data",
+        "Module:Potion/Data",
+        "Module:Inventory slot/Datasheet"
+    ],
+    "Module:Mayor": [
+        "Module:Loader",
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:SBTE",
+        "Module:Mayor/Elections/Data",
+        "Module:Mayor/Elections/ApiData",
+        "Module:Mayor/Data"
+    ],
+    "Module:Mayor/Data": [],
+    "Module:Mayor/Elections": [],
+    "Module:Mayor/Elections/ApiData": [
+        "Module:Mayor/Data"
+    ],
+    "Module:Mayor/Elections/Automated": [],
+    "Module:Mayor/Elections/Data": [
+        "Module:Mayor/Data"
+    ],
+    "Module:Mayor/UI": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:Mayor",
+        "Module:Inventory slot/Utils",
+        "Module:Mayor/Data",
+        "Module:Mayor/Elections"
+    ],
+    "Module:Mbox": [
+        "Module:Arguments",
+        "Module:Mbox/data"
+    ],
+    "Module:Mbox/data": [],
+    "Module:Mctxt": [
+        "Module:Arguments"
+    ],
+    "Module:Minimap": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:SafeResponse",
+        "Module:Minimap/Data",
+        "Module:Minimap/Datasheet",
+        "Module:Minimap/Aliases",
+        "Module:Zone/Data",
+        "Module:Zone/Aliases"
+    ],
+    "Module:Minimap/Aliases": [],
+    "Module:Minimap/Data": [],
+    "Module:Minimap/Datasheet": [],
+    "Module:Minion": [
+        "Module:Arguments",
+        "Module:Loader",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:LibU",
+        "Module:SafeResponse",
+        "Module:String/Templates",
+        "Module:Inventory slot",
+        "Module:Bazaar",
+        "Module:Currency",
+        "Module:Item",
+        "Module:Skill",
+        "Module:Crafting/Bucket",
+        "Module:Collection/Link",
+        "Module:Minion/Data",
+        "Module:Minion/Aliases"
+    ],
+    "Module:Minion/Aliases": [],
+    "Module:Minion/Data": [],
+    "Module:Minion/MinionPageRow": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:String/Templates",
+        "Module:Minion/Data",
+        "Module:Minion/Aliases"
+    ],
+    "Module:Minion/Modifiers": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:SafeResponse"
+    ],
+    "Module:Minion/Templates": [
+        "Module:String",
+        "Module:Table",
+        "Module:Minion/Data"
+    ],
+    "Module:Minion/UI": [
+        "Module:Loader",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:Arguments",
+        "Module:Inventory slot",
+        "Module:Crafting/UI",
+        "Module:UI/Core",
+        "Module:Minion",
+        "Module:SafeResponse"
+    ],
+    "Module:MinionFullProfitTable": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:String/Templates",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:SafeResponse",
+        "Module:Minion",
+        "Module:Currency",
+        "Module:Minion/Data"
+    ],
+    "Module:Misc": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table"
+    ],
+    "Module:Mob": [
+        "Module:Arguments",
+        "Module:Loader",
+        "Module:Yesno",
+        "Module:Odds",
+        "Module:Item",
+        "Module:Color",
+        "Module:Mob/Display",
+        "Module:MobType",
+        "Module:Zone",
+        "Module:Skill",
+        "Module:Currency",
+        "Module:Mainonly",
+        "Module:String"
+    ],
+    "Module:Mob spawns": [
+        "Module:Arguments",
+        "Module:Format",
+        "Module:Mob/Display"
+    ],
+    "Module:Mob variants": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Color",
+        "Module:Stat/Data",
+        "Module:Stat/Order"
+    ],
+    "Module:Mob/Aliases": [],
+    "Module:Mob/Data": [],
+    "Module:Mob/Display": [
+        "Module:Table",
+        "Module:Arguments",
+        "Module:Sprite",
+        "Module:List",
+        "Module:Mob/Data",
+        "Module:Mob/Aliases"
+    ],
+    "Module:MobLevel": [
+        "Module:Arguments",
+        "Module:Yesno"
+    ],
+    "Module:MobType": [
+        "Module:Arguments",
+        "Module:Color",
+        "Module:MobType/Data"
+    ],
+    "Module:MobType/Data": [],
+    "Module:MultiRequire": [
+        "Module:LibU"
+    ],
+    "Module:NPC": [
+        "Module:Arguments",
+        "Module:Table",
+        "Module:Zone/Data"
+    ],
+    "Module:NPC/Aliases": [],
+    "Module:NPC/Data": [],
+    "Module:NPC/Display": [
+        "Module:Table",
+        "Module:Arguments",
+        "Module:Sprite",
+        "Module:List",
+        "Module:NPC/Data",
+        "Module:NPC/Aliases"
+    ],
+    "Module:NPCPriceSpread": [
+        "Module:Arguments",
+        "Module:Table",
+        "Module:String",
+        "Module:Yesno"
+    ],
+    "Module:Namespace detect": [
+        "Module:Yesno",
+        "Module:Arguments",
+        "Module:TableTools",
+        "Module:Namespace detect/data"
+    ],
+    "Module:Namespace detect/data": [],
+    "Module:Navbar": [
+        "Module:Arguments"
+    ],
+    "Module:Navbox": [],
+    "Module:Navigation Bar": [
+        "Module:Arguments",
+        "Module:Yesno"
+    ],
+    "Module:NoteSequence": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:Color"
+    ],
+    "Module:NoteSequence/testcases": [
+        "Module:NoteSequence",
+        "Module:ScribuntoUnit"
+    ],
+    "Module:Notice": [
+        "Module:Arguments",
+        "Module:Yesno",
+        "Module:Notice/Data"
+    ],
+    "Module:Notice/Data": [],
+    "Module:Nowiki": [
+        "Module:Arguments"
+    ],
+    "Module:Number": [],
+    "Module:NumberSpell": [
+        "Module:Arguments"
+    ],
+    "Module:Odds": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:Color",
+        "Module:Odds/Data",
+        "Module:Odds/Aliases"
+    ],
+    "Module:Odds/Aliases": [],
+    "Module:Odds/Data": [],
+    "Module:Page": [
+        "Module:Arguments",
+        "Module:LibU",
+        "Module:CallAssert",
+        "Module:Protect"
+    ],
+    "Module:Page Actions": [
+        "Module:Arguments",
+        "Module:Arguments",
+        "Module:String",
+        "Module:Page Actions/Data"
+    ],
+    "Module:Page Actions/Data": [],
+    "Module:ParserFunctions": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Yesno",
+        "Module:LibU"
+    ],
+    "Module:Perkpocalypse": [
+        "Module:Arguments",
+        "Module:SBTE",
+        "Module:Yesno"
+    ],
+    "Module:Pet": [
+        "Module:Loader",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:LibU",
+        "Module:Color",
+        "Module:Currency",
+        "Module:Ability",
+        "Module:Rarity",
+        "Module:Stat",
+        "Module:Inventory slot/Core",
+        "Module:Inventory slot/Utils",
+        "Module:Arguments",
+        "Module:Pet/Utils",
+        "Module:Bazaar",
+        "Module:Pet/LevelingData",
+        "Module:UIText/Data",
+        "Module:Rarity/Aliases"
+    ],
+    "Module:Pet Item": [
+        "Module:String",
+        "Module:Rarity",
+        "Module:Pet Item/Data",
+        "Module:UIText/Data"
+    ],
+    "Module:Pet Item/Data": [],
+    "Module:Pet/Data": [],
+    "Module:Pet/LevelingData": [
+        "Module:Table"
+    ],
+    "Module:Pet/Skins": [],
+    "Module:Pet/Templates": [
+        "Module:Loader",
+        "Module:String",
+        "Module:Table",
+        "Module:Rarity",
+        "Module:Stat",
+        "Module:Pet/Utils",
+        "Module:Pet/Data",
+        "Module:Pet/Skins",
+        "Module:Rarity/Aliases"
+    ],
+    "Module:Pet/UI": [
+        "Module:Loader",
+        "Module:Pet/Data",
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:Rarity",
+        "Module:UI/Core",
+        "Module:Pet/Utils",
+        "Module:UIText",
+        "Module:Rarity/Aliases",
+        "Module:Yesno",
+        "Module:Inventory slot",
+        "Module:Stat",
+        "Module:Ability",
+        "Module:Color",
+        "Module:Rarity/Data"
+    ],
+    "Module:Pet/Utils": [
+        "Module:Loader",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:Rarity",
+        "Module:Stat",
+        "Module:Pet Item",
+        "Module:Pet/Data",
+        "Module:Rarity/Aliases",
+        "Module:UIText/Data"
+    ],
+    "Module:Potion": [
+        "Module:String",
+        "Module:Table",
+        "Module:Potion/Data",
+        "Module:Potion/Aliases"
+    ],
+    "Module:Potion/Aliases": [],
+    "Module:Potion/Data": [],
+    "Module:Potion/Display": [
+        "Module:String",
+        "Module:Yesno",
+        "Module:Color",
+        "Module:Arguments",
+        "Module:Potion/Data",
+        "Module:Potion/Aliases"
+    ],
+    "Module:Potion/PotionPageRow": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:Inventory slot",
+        "Module:Potion/Display",
+        "Module:Rarity",
+        "Module:Potion/Data",
+        "Module:Potion/Aliases"
+    ],
+    "Module:Potion/UI": [
+        "Module:Arguments",
+        "Module:Potion",
+        "Module:UI/Core",
+        "Module:Inventory slot/Aliases"
+    ],
+    "Module:Power": [
+        "Module:Arguments",
+        "Module:Stat",
+        "Module:Color",
+        "Module:Inventory slot",
+        "Module:SafeResponse"
+    ],
+    "Module:Power/Display": [
+        "Module:Arguments"
+    ],
+    "Module:ProcessArgs": [],
+    "Module:Protect": [],
+    "Module:Quote": [
+        "Module:Arguments",
+        "Module:I18n"
+    ],
+    "Module:RNG Meter/Catacombs Requirements": [],
+    "Module:Random": [
+        "Module:Yesno",
+        "Module:Random/Dependencies"
+    ],
+    "Module:Random/Dependencies": [
+        "libraryUtil"
+    ],
+    "Module:Random/Modifications/ThatIPEditor": [
+        "Module:Yesno",
+        "Module:List"
+    ],
+    "Module:Rank": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:Rank/Data",
+        "Module:Rank/Aliases"
+    ],
+    "Module:Rank/Aliases": [],
+    "Module:Rank/Data": [],
+    "Module:Rarity": [
+        "Module:Arguments",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:Color",
+        "Module:Mainonly",
+        "Module:Rarity/Aliases",
+        "Module:Rarity/Data"
+    ],
+    "Module:Rarity/Aliases": [],
+    "Module:Rarity/Data": [],
+    "Module:Recipe table": [],
+    "Module:Recipe tree": [
+        "Module:Arguments",
+        "Module:Item"
+    ],
+    "Module:Recipe tree/Examples": [
+        "Module:Recipe tree",
+        "Module:Item",
+        "Module:Bazaar",
+        "Module:Bazaar"
+    ],
+    "Module:Reforge": [
+        "Module:String",
+        "Module:Table",
+        "Module:Arguments",
+        "Module:Rarity",
+        "Module:Coins",
+        "Module:Stat",
+        "Module:Mctxt",
+        "Module:Item",
+        "Module:Reforge/Data"
+    ],
+    "Module:Reforge/Data": [],
+    "Module:Reforge/Display": [
+        "Module:Arguments"
+    ],
+    "Module:Relations": [
+        "Module:Arguments",
+        "Module:Arguments",
+        "Module:Yesno",
+        "Module:String"
+    ],
+    "Module:Reply to": [
+        "Module:String"
+    ],
+    "Module:Report": [
+        "Module:String",
+        "Module:Table",
+        "Module:LibU",
+        "Module:Arguments",
+        "Module:User"
+    ],
+    "Module:RightBox": [
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:LibU",
+        "Module:Arguments"
+    ],
+    "Module:RomanNumeral": [
+        "Module:Arguments"
+    ],
+    "Module:SBTC": [
+        "Module:SBTE"
+    ],
+    "Module:SBTE": [
+        "Module:Class"
+    ],
+    "Module:Sacks": [
+        "Module:Arguments",
+        "Module:Table",
+        "Module:Color",
+        "Module:Item/Display"
+    ],
+    "Module:SafeResponse": [
+        "Module:String/Templates",
+        "Module:JSON",
+        "Module:SafeResponse/Data"
+    ],
+    "Module:SafeResponse/Data": [],
+    "Module:ScribuntoUnit": [
+        "Module:ScribuntoUnit/config"
+    ],
+    "Module:ScribuntoUnit/config": [],
+    "Module:SeaCreature": [
+        "Module:String",
+        "Module:Table",
+        "Module:Arguments",
+        "Module:SeaCreature/Datasheet"
+    ],
+    "Module:SeaCreature/Datasheet": [],
+    "Module:Separated entries": [],
+    "Module:Shards": [
+        "Module:Loader",
+        "Module:Arguments",
+        "Module:Inventory slot",
+        "Module:Rarity"
+    ],
+    "Module:Sidebar": [
+        "Module:Arguments",
+        "Module:Navbar"
+    ],
+    "Module:Skill": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:Color",
+        "Module:LibU",
+        "Module:Skill/Data",
+        "Module:Skill/Aliases"
+    ],
+    "Module:Skill/Aliases": [],
+    "Module:Skill/Data": [],
+    "Module:Sprite": [
+        "Module:Yesno",
+        "Module:LibU"
+    ],
+    "Module:Sprite/testcases": [
+        "Module:Sprite",
+        "Module:ScribuntoUnit"
+    ],
+    "Module:Staff": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:User",
+        "Module:Staff/Data",
+        "Module:User/Data",
+        "Module:User/Aliases",
+        "Module:Staff/Members"
+    ],
+    "Module:Staff/Data": [],
+    "Module:Staff/Members": [],
+    "Module:Stat": [
+        "Module:Table",
+        "Module:Yesno",
+        "Module:Arguments",
+        "Module:Color",
+        "Module:SafeResponse",
+        "Module:List",
+        "Module:Stat/Aliases",
+        "Module:Stat/Data"
+    ],
+    "Module:Stat/Aliases": [],
+    "Module:Stat/Data": [],
+    "Module:Stat/Meta": [
+        "Module:MultiRequire",
+        "Module:Stat"
+    ],
+    "Module:Stat/Order": [],
+    "Module:String": [
+        "Module:Arguments",
+        "Module:Yesno",
+        "Module:LibU",
+        "Module:Table",
+        "Module:String/Lorem"
+    ],
+    "Module:String/Lorem": [],
+    "Module:String/Templates": [
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:Color",
+        "Module:Mctxt",
+        "Module:Arguments"
+    ],
+    "Module:T": [
+        "Module:Arguments",
+        "Module:User error",
+        "Module:Yesno"
+    ],
+    "Module:TSLoader": [
+        "Module:ProcessArgs"
+    ],
+    "Module:Tabber": [
+        "Module:Arguments"
+    ],
+    "Module:Table": [
+        "Module:LibU",
+        "Module:Class"
+    ],
+    "Module:Tabview": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:JSON"
+    ],
+    "Module:Tag": [
+        "Module:Arguments",
+        "Module:String"
+    ],
+    "Module:Template link general": [
+        "Module:Arguments"
+    ],
+    "Module:TemplateList": [
+        "Module:Arguments"
+    ],
+    "Module:Time ago": [
+        "Module:NumberSpell",
+        "Module:Yesno",
+        "Module:Date",
+        "Module:Arguments"
+    ],
+    "Module:TooltipText": [
+        "Module:Arguments",
+        "Module:String"
+    ],
+    "Module:Top": [],
+    "Module:UI": [
+        "Module:Arguments",
+        "Module:Loader",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:Inventory slot",
+        "Module:Crafting",
+        "Module:UI/Core",
+        "Module:Random",
+        "Module:Mctxt"
+    ],
+    "Module:UI/Core": [
+        "Module:Class",
+        "Module:Yesno",
+        "Module:Inventory slot",
+        "Module:LibU"
+    ],
+    "Module:UIText": [
+        "Module:Arguments",
+        "Module:Loader",
+        "Module:String",
+        "Module:Table",
+        "Module:LibU",
+        "Module:Stat",
+        "Module:Rarity",
+        "Module:Zone",
+        "Module:Potion/Data",
+        "Module:Potion/Aliases",
+        "Module:Enchantment/Data",
+        "Module:Enchantment/Aliases",
+        "Module:Rarity/Data",
+        "Module:Rarity/Aliases",
+        "Module:UIText/Data",
+        "Module:Gemstone/Data"
+    ],
+    "Module:UIText/Data": [],
+    "Module:Unindent": [],
+    "Module:Unsigned": [
+        "Module:IPAddress old",
+        "Module:ProcessArgs"
+    ],
+    "Module:User": [
+        "Module:Arguments",
+        "Module:String",
+        "Module:Table",
+        "Module:Yesno",
+        "Module:LibU",
+        "Module:User/Data",
+        "Module:User/Aliases"
+    ],
+    "Module:User error": [
+        "libraryUtil"
+    ],
+    "Module:User/Aliases": [],
+    "Module:User/Data": [],
+    "Module:Userbox": [
+        "Module:String",
+        "Module:Table",
+        "Module:Arguments",
+        "Module:Userbox/Skins"
+    ],
+    "Module:Userbox/Skins": [],
+    "Module:VideoGallery": [],
+    "Module:Weapon": [
+        "Module:Arguments"
+    ],
+    "Module:Weapon/Data": [],
+    "Module:Weight": [
+        "Module:String",
+        "Module:Yesno",
+        "Module:Arguments",
+        "Module:Rarity",
+        "Module:Weight/Data"
+    ],
+    "Module:Weight/Data": [],
+    "Module:Wikitable": [
+        "Module:WP:Wikitable"
+    ],
+    "Module:Yesno": [],
+    "Module:Yesno/template": [
+        "Module:String",
+        "Module:Arguments",
+        "Module:Yesno"
+    ],
+    "Module:Zone": [
+        "Module:String",
+        "Module:Table",
+        "Module:Arguments",
+        "Module:Color",
+        "Module:List",
+        "Module:Zone/Data",
+        "Module:Zone/Aliases"
+    ],
+    "Module:Zone/Aliases": [],
+    "Module:Zone/Data": [],
+    "Module:FrameTools": [],
+    "libraryUtil": [],
+    "bit32": [],
+    "Module:TableTools": [],
+    "Module:Coins": [],
+    "Module:WP:Wikitable": []
 }

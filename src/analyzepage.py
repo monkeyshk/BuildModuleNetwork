@@ -31,14 +31,30 @@ importFormats = [
     r"\[\[(.+)\]\]",
 ]
 
+# Determine whether the page is one of the loadable libraries
+# https://www.mediawiki.org/wiki/Extension:Scribunto/Lua_reference_manual#Loadable_libraries
+def isLoadableLibrary(name: str) -> bool:
+    loadableLibraries = frozenset({
+        "bit32",
+        "libraryUtil",
+        "luabit.bit",
+        "luabit.hex",
+        "strict",
+        "ustring",
+    })
+    return name in loadableLibraries
+
 def uppercaseFirst(text: str) -> str:
     # Note: str.capitalize() would lowercase the remaining characters.
     return text[:1].upper() + text[1:]
 
-# Convert required modules to standard names
-def standardizePageName(name: str) -> str:
-    name = name.replace("Module:", "").replace("module:", "").replace("_", " ").strip()
-    return uppercaseFirst(name)
+# Convert module import names to standard names
+def resolveImportName(name: str) -> str:
+    if isLoadableLibrary(name):
+        return name
+
+    name = name.replace("Module:", "").replace("module:", "").replace("_", " ")
+    return "Module:" + uppercaseFirst(name)
 
 # Scan page and return all required modules
 # Returns a tuple (normal_imports_detected, data_imports_detected)
@@ -71,6 +87,6 @@ def findDependencies(content: str) -> tuple[list[str], list[str]]:
 
     # Return a list with all "Module:" removed, and then with all empty string removed
     return (
-        [standardizePageName(name) for name in imports],
-        [standardizePageName(name) for name in dataImports],
+        [resolveImportName(name) for name in imports],
+        [resolveImportName(name) for name in dataImports],
     )

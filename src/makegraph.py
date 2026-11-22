@@ -6,7 +6,7 @@ from typing import Literal, Optional
 
 import requestpage, analyzepage, pickle, json, os
 
-PageType = Literal['code'] | Literal['data'] | Literal['external'] | Literal['test']
+PageType = Literal['code'] | Literal['data'] | Literal['test'] | Literal['library'] | Literal['unidentified']
 
 # Filter to exclude pages from the graph
 # This is based on the wiki's convention
@@ -49,19 +49,26 @@ def makeGraph() -> GraphResult:
     dependenciesGraph: dict[str, list[str]] = {}
     pageTypes: dict[str, PageType] = {}
 
-    for pg in startFromPages:
-        name = pg.replace("Module:", "")
-        queue.append(name)
+    for page in startFromPages:
+        queue.append(page)
 
     while len(queue) > 0:
         name = queue.pop(0).strip()
         if not name in dependenciesGraph:
             print("Finding dependencies for", name)
 
-            content = requestpage.makePageContentRequest("Module:" + name)
+            isLibrary = not name.startswith("Module:")
+            if isLibrary:
+                print("Is loadable library")
+                dependenciesGraph[name] = []
+                pageTypes[name] = "library"
+                continue
+
+            content = requestpage.makePageContentRequest(name)
             if not content:
                 print("Page not found")
-                pageTypes[name] = "external"
+                dependenciesGraph[name] = []
+                pageTypes[name] = "unidentified"
                 continue
 
             result = analyzepage.findDependencies(content)

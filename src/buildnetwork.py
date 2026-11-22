@@ -40,8 +40,8 @@ def findNodeLevels(usesRelationsMap: dict[str, list[str]], pageTypes: dict[str, 
 
         visiting.add(node)
         try:
-            if pageTypes[node] == "external":
-                level = -1 # External modules
+            if pageTypes[node] == "unidentified" or pageTypes[node] == "library":
+                level = -1 # Non-local modules
             elif len(usesRelationsMap[node]) == 0:
                 level = 0 # Leaf nodes (no dependencies)
             else:
@@ -71,31 +71,33 @@ def buildPyvisGraph():
 
     for node in usesRelationsMap.keys():
         group = (
-                1 if pageTypes[node] == "data" else
-                2 if pageTypes[node] == "external" else
-                3 if pageTypes[node] == "code" else
-                4 if pageTypes[node] == "test" else
+                1 if pageTypes[node] == "code" else
+                2 if pageTypes[node] == "data" else
+                3 if pageTypes[node] == "test" else
+                4 if pageTypes[node] == "library" else
+                5 if pageTypes[node] == "unidentified" else
                 -1
                 )
         typeName = (
-                "Data" if pageTypes[node] == "data" else
-                "External" if pageTypes[node] == "external" else
                 "Code" if pageTypes[node] == "code" else
+                "Data" if pageTypes[node] == "data" else
                 "Test" if pageTypes[node] == "test" else
+                "Library" if pageTypes[node] == "library" else
+                "Unidentified" if pageTypes[node] == "unidentified" else
                 ""
                 )
-        tooltip = f"Name: {node}"
+        tooltip = f"{node}"
         tooltip += "\nType: " + typeName
         tooltip += f"\nUses (Outdegree): {str(len(usesRelationsMap[node]))}"
         tooltip += f"\nUsed By (Indegree): {str(len(usedByRelationsMap[node]))}"
         tooltip += f"\nLevel: {nodeLevels[node]}"
         dag.add_node(node,
-            label=node,
-            value=len(usedByRelationsMap[node]),
-            title=tooltip,
-            group=group,
-            level=nodeLevels[node],
-        )
+                     label=node.replace("Module:", ""),
+                     value=len(usedByRelationsMap[node]),
+                     title=tooltip,
+                     group=group,
+                     level=nodeLevels[node],
+                     )
 
     # Add edges based on USES relation
 

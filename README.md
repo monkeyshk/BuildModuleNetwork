@@ -47,18 +47,26 @@ With a user-defined list or an API requested list of all module pages as startin
 
 To get the dependencies, the program first requests the page content using MediaWiki's API, then detects its module dependencies. The detection of module dependencies is solely string pattern detection based on how wiki users import their modules.
 
-The module types are also detected. A module is categorized as a data module if it is imported with `loadData` at any time. A module is categorized as an external module if the page cannot be found on the wiki.
+The module types are also detected:
+- Code: A typical code module
+- Data: A module that matches any defined suffix for data module or is imported with `loadData` at any time
+- Test: A module that matches any defined suffix for test module
+- Library: A module with name that is one of the loadable libraries from Scribunto
+- Unidentified: A module that cannot be found on the wiki
+
+Code, data, and test modules are also called "local modules". Other module types are non-local.
 
 After that, it builds the nodes and edges in a directed graph following the USES and COMPRISES relation. Note that this program cannot differentiate between USES and COMPRISES relations. We call all of them USES relations for convenience. If module A imports (USES) module B, an arrow points from the node of A to the node of B.
 
-The nodes are colored differently based on the module type (module, data module, external module). The size of the node is proportional to on the number of incoming neighbors.
+The nodes are colored differently based on the module type. The size of the node is proportional to the number of incoming neighbors.
 
-The node levels are calculated to support the hierarchical version. Here, a node is at level N if all its outgoing neighbors are at no more than level N-1, among which at least one is at level N-1. Non-external modules that do not USE any other non-external module have nodes at level 0. External module nodes are at a special level of -1.
+The node levels are calculated to support the hierarchical version. Here, a node is at level N if all its outgoing neighbors are at no more than level N-1 and among which at least one is at level N-1. Local modules that do not USE any other local module have nodes at level 0. Non-local module nodes are at a special level of -1.
 
 ## Changelog
 
 | Version | Changes |
 | ------- | ------- |
+| 1.5 | Add new page types: Test and Library. Rename types: Module to Code, External to Unidentified |
 | 1.4 | Use dark mode. Add hierarchical version. The arrow direction is reversed again to follow the USES relation |
 | 1.3 | Minor fixes. Reverted change in arrow direction |
 | 1.2 | New color for external pages. Fixed first letter casing. Now uses all existing modules as starting points. A change in arrow direction |
